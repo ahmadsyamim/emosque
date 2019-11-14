@@ -12,7 +12,7 @@
     <!-- Favicon -->
     <?php $admin_favicon = Voyager::setting('admin.icon_image', ''); ?>
     @if($admin_favicon == '')
-        <link rel="shortcut icon" href="{{ voyager_asset('images/logo-icon.png') }}" type="image/png">
+        <link rel="shortcut icon" href="{{ asset('images/logo-icon.png') }}" type="image/png">
     @else
         <link rel="shortcut icon" href="{{ Voyager::image($admin_favicon) }}" type="image/png">
     @endif
@@ -57,7 +57,7 @@
 <div id="voyager-loader">
     <?php $admin_loader_img = Voyager::setting('admin.loader', ''); ?>
     @if($admin_loader_img == '')
-        <img src="{{ voyager_asset('images/logo-icon.png') }}" alt="Voyager Loader">
+        <img src="{{ asset('images/loader.png') }}" alt="Voyager Loader">
     @else
         <img src="{{ Voyager::image($admin_loader_img) }}" alt="Voyager Loader">
     @endif
