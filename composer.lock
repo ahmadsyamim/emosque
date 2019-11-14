@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa3568eebb84f492cd07e195aad865ee",
+    "content-hash": "616fac361c754b87497bbf3d2e07be2f",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -2751,16 +2751,16 @@
         },
         {
             "name": "pvtl/voyager-frontend",
-            "version": "0.9.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pvtl/voyager-frontend.git",
-                "reference": "072dd581a8952a2d113c6373ef46571eb302e7ae"
+                "url": "https://github.com/ahmadsyamim/voyager-frontend.git",
+                "reference": "183680bbc0a21f4462e1c5d2f7179eafd9d779f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pvtl/voyager-frontend/zipball/072dd581a8952a2d113c6373ef46571eb302e7ae",
-                "reference": "072dd581a8952a2d113c6373ef46571eb302e7ae",
+                "url": "https://api.github.com/repos/ahmadsyamim/voyager-frontend/zipball/183680bbc0a21f4462e1c5d2f7179eafd9d779f9",
+                "reference": "183680bbc0a21f4462e1c5d2f7179eafd9d779f9",
                 "shasum": ""
             },
             "require": {
@@ -2792,15 +2792,31 @@
                     "Pvtl\\VoyagerFrontend\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Pvtl\\VoyagerFrontend\\Test\\": "tests"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "phpunit"
+                ],
+                "post-package-install": [
+                    "@php artisan voyager-frontend:install"
+                ],
+                "post-autoload-dump": [
+                    "@php artisan vendor:publish --provider=Laravel\\Scout\\ScoutServiceProvider",
+                    "@php artisan vendor:publish --provider=Spatie\\Sitemap\\SitemapServiceProvider --tag=config"
+                ]
+            },
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Pivotal Agency",
-                    "email": "tech@pivotalagency.com.au",
-                    "homepage": "http://pivotalagency.com.au"
+                    "homepage": "http://pivotalagency.com.au",
+                    "email": "tech@pivotalagency.com.au"
                 }
             ],
             "description": "The Missing Front-end for The Missing Laravel Admin.",
@@ -2809,7 +2825,10 @@
                 "laravel",
                 "voyager"
             ],
-            "time": "2019-11-04T00:39:27+00:00"
+            "support": {
+                "source": "https://github.com/ahmadsyamim/voyager-frontend/tree/master"
+            },
+            "time": "2019-11-14T02:25:41+00:00"
         },
         {
             "name": "pvtl/voyager-pages",
@@ -7370,7 +7389,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "pvtl/voyager-frontend": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
