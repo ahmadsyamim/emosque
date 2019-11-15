@@ -10,7 +10,7 @@
                             @if (($key + 1) === count($breadcrumbs))
                                 <span class="breadcrumb">{{ $crumb['text'] }}</span>
                             @else
-                                <a class="breadcrumb" href="{{ $crumb['link'] }}">{{ $crumb['text'] }}</a>
+                                <a class="breadcrumb" href="{{ url($crumb['link']) }}">{{ $crumb['text'] }}</a>
                             @endif
                         </li>
                     @endforeach
