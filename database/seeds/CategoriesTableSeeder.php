@@ -19,22 +19,22 @@ class CategoriesTableSeeder extends Seeder
         \DB::table('categories')->insert(array (
             0 => 
             array (
-                'created_at' => '2019-11-13 14:15:34',
                 'id' => 1,
-                'name' => 'Category 1',
-                'order' => 1,
                 'parent_id' => NULL,
+                'order' => 1,
+                'name' => 'Category 1',
                 'slug' => 'category-1',
+                'created_at' => '2019-11-13 14:15:34',
                 'updated_at' => '2019-11-13 14:15:34',
             ),
             1 => 
             array (
-                'created_at' => '2019-11-13 14:15:34',
                 'id' => 2,
-                'name' => 'Category 2',
-                'order' => 1,
                 'parent_id' => NULL,
+                'order' => 1,
+                'name' => 'Category 2',
                 'slug' => 'category-2',
+                'created_at' => '2019-11-13 14:15:34',
                 'updated_at' => '2019-11-13 14:15:34',
             ),
         ));

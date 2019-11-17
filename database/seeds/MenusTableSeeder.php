@@ -19,23 +19,23 @@ class MenusTableSeeder extends Seeder
         \DB::table('menus')->insert(array (
             0 => 
             array (
-                'created_at' => '2019-11-13 14:15:34',
                 'id' => 1,
                 'name' => 'admin',
+                'created_at' => '2019-11-13 14:15:34',
                 'updated_at' => '2019-11-13 14:15:34',
             ),
             1 => 
             array (
-                'created_at' => '2019-11-13 15:13:27',
                 'id' => 2,
                 'name' => 'primary',
+                'created_at' => '2019-11-13 15:13:27',
                 'updated_at' => '2019-11-13 15:13:27',
             ),
             2 => 
             array (
-                'created_at' => '2019-11-13 15:13:30',
                 'id' => 3,
                 'name' => 'social',
+                'created_at' => '2019-11-13 15:13:30',
                 'updated_at' => '2019-11-13 15:13:30',
             ),
         ));
