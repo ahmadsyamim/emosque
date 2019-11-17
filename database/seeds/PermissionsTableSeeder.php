@@ -465,6 +465,46 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2019-11-13 15:13:30',
                 'updated_at' => '2019-11-13 15:13:30',
             ),
+            56 => 
+            array (
+                'id' => 57,
+                'key' => 'browse_mosques',
+                'table_name' => 'mosques',
+                'created_at' => '2019-11-17 22:28:45',
+                'updated_at' => '2019-11-17 22:28:45',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'key' => 'read_mosques',
+                'table_name' => 'mosques',
+                'created_at' => '2019-11-17 22:28:45',
+                'updated_at' => '2019-11-17 22:28:45',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'key' => 'edit_mosques',
+                'table_name' => 'mosques',
+                'created_at' => '2019-11-17 22:28:46',
+                'updated_at' => '2019-11-17 22:28:46',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'key' => 'add_mosques',
+                'table_name' => 'mosques',
+                'created_at' => '2019-11-17 22:28:46',
+                'updated_at' => '2019-11-17 22:28:46',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'key' => 'delete_mosques',
+                'table_name' => 'mosques',
+                'created_at' => '2019-11-17 22:28:46',
+                'updated_at' => '2019-11-17 22:28:46',
+            ),
         ));
         
         
