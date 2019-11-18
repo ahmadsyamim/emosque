@@ -8,7 +8,7 @@ use App\Repositories\BaseRepository;
 /**
  * Class MosqueRepository
  * @package App\Repositories
- * @version November 17, 2019, 10:09 pm UTC
+ * @version November 18, 2019, 5:17 am UTC
 */
 
 class MosqueRepository extends BaseRepository

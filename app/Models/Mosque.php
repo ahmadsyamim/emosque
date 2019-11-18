@@ -2,30 +2,91 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model as Model;
+use Eloquent as Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
- * Class Mosque
- * @package App\Models
- * @version November 17, 2019, 10:09 pm UTC
- *
- * @property string name
- * @property string image
- * @property string description
- * @property string address
- * @property string website
- * @property string prefectures
- * @property string city
- * @property integer status
+ * @SWG\Definition(
+ *      definition="Mosque",
+ *      required={""},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="name",
+ *          description="name",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="image",
+ *          description="image",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="description",
+ *          description="description",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="address",
+ *          description="address",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="website",
+ *          description="website",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="prefectures",
+ *          description="prefectures",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="city",
+ *          description="city",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="status",
+ *          description="status",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="deleted_at",
+ *          description="deleted_at",
+ *          type="string",
+ *          format="date-time"
+ *      )
+ * )
  */
 class Mosque extends Model
 {
+    use SoftDeletes;
 
     public $table = 'mosques';
     
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
 
+
+    protected $dates = ['deleted_at'];
 
 
 

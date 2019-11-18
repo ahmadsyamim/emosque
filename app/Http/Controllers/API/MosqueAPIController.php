@@ -26,11 +26,36 @@ class MosqueAPIController extends AppBaseController
     }
 
     /**
-     * Display a listing of the Mosque.
-     * GET|HEAD /mosques
-     *
      * @param Request $request
      * @return Response
+     *
+     * @SWG\Get(
+     *      path="/mosques",
+     *      summary="Get a listing of the Mosques.",
+     *      tags={"Mosque"},
+     *      description="Get all Mosques",
+     *      produces={"application/json"},
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="success",
+     *                  type="boolean"
+     *              ),
+     *              @SWG\Property(
+     *                  property="data",
+     *                  type="array",
+     *                  @SWG\Items(ref="#/definitions/Mosque")
+     *              ),
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function index(Request $request)
     {
@@ -40,16 +65,49 @@ class MosqueAPIController extends AppBaseController
             $request->get('limit')
         );
 
-        return $this->sendResponse($mosques->toArray(), 'Mosques retrieved successfully');
+        return $this->sendResponse(
+            $mosques->toArray(),
+            __('messages.retrieved', ['model' => __('models/mosques.plural')])
+        );
     }
 
     /**
-     * Store a newly created Mosque in storage.
-     * POST /mosques
-     *
      * @param CreateMosqueAPIRequest $request
-     *
      * @return Response
+     *
+     * @SWG\Post(
+     *      path="/mosques",
+     *      summary="Store a newly created Mosque in storage",
+     *      tags={"Mosque"},
+     *      description="Store Mosque",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="body",
+     *          in="body",
+     *          description="Mosque that should be stored",
+     *          required=false,
+     *          @SWG\Schema(ref="#/definitions/Mosque")
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="success",
+     *                  type="boolean"
+     *              ),
+     *              @SWG\Property(
+     *                  property="data",
+     *                  ref="#/definitions/Mosque"
+     *              ),
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function store(CreateMosqueAPIRequest $request)
     {
@@ -57,16 +115,49 @@ class MosqueAPIController extends AppBaseController
 
         $mosque = $this->mosqueRepository->create($input);
 
-        return $this->sendResponse($mosque->toArray(), 'Mosque saved successfully');
+        return $this->sendResponse(
+            $mosque->toArray(),
+            __('messages.saved', ['model' => __('models/mosques.singular')])
+        );
     }
 
     /**
-     * Display the specified Mosque.
-     * GET|HEAD /mosques/{id}
-     *
      * @param int $id
-     *
      * @return Response
+     *
+     * @SWG\Get(
+     *      path="/mosques/{id}",
+     *      summary="Display the specified Mosque",
+     *      tags={"Mosque"},
+     *      description="Get Mosque",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="id",
+     *          description="id of Mosque",
+     *          type="integer",
+     *          required=true,
+     *          in="path"
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="success",
+     *                  type="boolean"
+     *              ),
+     *              @SWG\Property(
+     *                  property="data",
+     *                  ref="#/definitions/Mosque"
+     *              ),
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function show($id)
     {
@@ -74,20 +165,62 @@ class MosqueAPIController extends AppBaseController
         $mosque = $this->mosqueRepository->find($id);
 
         if (empty($mosque)) {
-            return $this->sendError('Mosque not found');
+            return $this->sendError(
+                __('messages.not_found', ['model' => __('models/mosques.singular')])
+            );
         }
 
-        return $this->sendResponse($mosque->toArray(), 'Mosque retrieved successfully');
+        return $this->sendResponse(
+            $mosque->toArray(),
+            __('messages.retrieved', ['model' => __('models/mosques.singular')])
+        );
     }
 
     /**
-     * Update the specified Mosque in storage.
-     * PUT/PATCH /mosques/{id}
-     *
      * @param int $id
      * @param UpdateMosqueAPIRequest $request
-     *
      * @return Response
+     *
+     * @SWG\Put(
+     *      path="/mosques/{id}",
+     *      summary="Update the specified Mosque in storage",
+     *      tags={"Mosque"},
+     *      description="Update Mosque",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="id",
+     *          description="id of Mosque",
+     *          type="integer",
+     *          required=true,
+     *          in="path"
+     *      ),
+     *      @SWG\Parameter(
+     *          name="body",
+     *          in="body",
+     *          description="Mosque that should be updated",
+     *          required=false,
+     *          @SWG\Schema(ref="#/definitions/Mosque")
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="success",
+     *                  type="boolean"
+     *              ),
+     *              @SWG\Property(
+     *                  property="data",
+     *                  ref="#/definitions/Mosque"
+     *              ),
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function update($id, UpdateMosqueAPIRequest $request)
     {
@@ -97,23 +230,56 @@ class MosqueAPIController extends AppBaseController
         $mosque = $this->mosqueRepository->find($id);
 
         if (empty($mosque)) {
-            return $this->sendError('Mosque not found');
+            return $this->sendError(
+                __('messages.not_found', ['model' => __('models/mosques.singular')])
+            );
         }
 
         $mosque = $this->mosqueRepository->update($input, $id);
 
-        return $this->sendResponse($mosque->toArray(), 'Mosque updated successfully');
+        return $this->sendResponse(
+            $mosque->toArray(),
+            __('messages.updated', ['model' => __('models/mosques.singular')])
+        );
     }
 
     /**
-     * Remove the specified Mosque from storage.
-     * DELETE /mosques/{id}
-     *
      * @param int $id
-     *
-     * @throws \Exception
-     *
      * @return Response
+     *
+     * @SWG\Delete(
+     *      path="/mosques/{id}",
+     *      summary="Remove the specified Mosque from storage",
+     *      tags={"Mosque"},
+     *      description="Delete Mosque",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="id",
+     *          description="id of Mosque",
+     *          type="integer",
+     *          required=true,
+     *          in="path"
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="success",
+     *                  type="boolean"
+     *              ),
+     *              @SWG\Property(
+     *                  property="data",
+     *                  type="string"
+     *              ),
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function destroy($id)
     {
@@ -121,11 +287,16 @@ class MosqueAPIController extends AppBaseController
         $mosque = $this->mosqueRepository->find($id);
 
         if (empty($mosque)) {
-            return $this->sendError('Mosque not found');
+            return $this->sendError(
+                __('messages.not_found', ['model' => __('models/mosques.singular')])
+            );
         }
 
         $mosque->delete();
 
-        return $this->sendSuccess('Mosque deleted successfully');
+        return $this->sendResponse(
+            $id,
+            __('messages.deleted', ['model' => __('models/mosques.singular')])
+        );
     }
 }
