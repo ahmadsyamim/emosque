@@ -6,6 +6,205 @@
     },
     "basePath": "/api/v1",
     "paths": {
+        "/blogPosts": {
+            "get": {
+                "tags": [
+                    "BlogPost"
+                ],
+                "summary": "Get a listing of the BlogPosts.",
+                "description": "Get all BlogPosts",
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "success": {
+                                    "type": "boolean"
+                                },
+                                "data": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/definitions/BlogPost"
+                                    }
+                                },
+                                "message": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "BlogPost"
+                ],
+                "summary": "Store a newly created BlogPost in storage",
+                "description": "Store BlogPost",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "BlogPost that should be stored",
+                        "required": false,
+                        "schema": {
+                            "$ref": "#/definitions/BlogPost"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "success": {
+                                    "type": "boolean"
+                                },
+                                "data": {
+                                    "$ref": "#/definitions/BlogPost"
+                                },
+                                "message": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/blogPosts/{id}": {
+            "get": {
+                "tags": [
+                    "BlogPost"
+                ],
+                "summary": "Display the specified BlogPost",
+                "description": "Get BlogPost",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of BlogPost",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "success": {
+                                    "type": "boolean"
+                                },
+                                "data": {
+                                    "$ref": "#/definitions/BlogPost"
+                                },
+                                "message": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "BlogPost"
+                ],
+                "summary": "Update the specified BlogPost in storage",
+                "description": "Update BlogPost",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of BlogPost",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "BlogPost that should be updated",
+                        "required": false,
+                        "schema": {
+                            "$ref": "#/definitions/BlogPost"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "success": {
+                                    "type": "boolean"
+                                },
+                                "data": {
+                                    "$ref": "#/definitions/BlogPost"
+                                },
+                                "message": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "BlogPost"
+                ],
+                "summary": "Remove the specified BlogPost from storage",
+                "description": "Delete BlogPost",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "id of BlogPost",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "success": {
+                                    "type": "boolean"
+                                },
+                                "data": {
+                                    "type": "string"
+                                },
+                                "message": {
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
         "/mosques": {
             "get": {
                 "tags": [
@@ -207,6 +406,83 @@
         }
     },
     "definitions": {
+        "BlogPost": {
+            "required": [
+                ""
+            ],
+            "properties": {
+                "id": {
+                    "description": "id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "author_id": {
+                    "description": "author_id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "category_id": {
+                    "description": "category_id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "title": {
+                    "description": "title",
+                    "type": "string"
+                },
+                "seo_title": {
+                    "description": "seo_title",
+                    "type": "string"
+                },
+                "excerpt": {
+                    "description": "excerpt",
+                    "type": "string"
+                },
+                "body": {
+                    "description": "body",
+                    "type": "string"
+                },
+                "image": {
+                    "description": "image",
+                    "type": "string"
+                },
+                "slug": {
+                    "description": "slug",
+                    "type": "string"
+                },
+                "meta_description": {
+                    "description": "meta_description",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "status",
+                    "type": "string"
+                },
+                "featured": {
+                    "description": "featured",
+                    "type": "boolean"
+                },
+                "created_at": {
+                    "description": "created_at",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "updated_at": {
+                    "description": "updated_at",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "tags": {
+                    "description": "tags",
+                    "type": "string"
+                },
+                "published_date": {
+                    "description": "published_date",
+                    "type": "string",
+                    "format": "date-time"
+                }
+            }
+        },
         "Mosque": {
             "required": [
                 ""
