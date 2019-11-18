@@ -20,8 +20,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['prefix' => 'v1'], function () {
     Route::resource('mosques', 'MosqueAPIController');
     Route::resource('blog_posts', 'BlogPostAPIController');
+    Route::resource('blogPosts', 'BlogPostAPIController');
 });
 
 
 Route::resource('mosques', 'MosqueAPIController');
 Route::resource('blog_posts', 'BlogPostAPIController');
+Route::resource('blogPosts', 'BlogPostAPIController');
