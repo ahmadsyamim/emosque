@@ -98,8 +98,6 @@ use Eloquent as Model;
  */
 class BlogPost extends Model
 {
-    use SoftDeletes;
-
     public $table = 'blog_posts';
     
     const CREATED_AT = 'created_at';
