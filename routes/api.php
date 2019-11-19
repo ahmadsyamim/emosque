@@ -13,7 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
+
+Route::get('/user', function (Request $request) {
     return $request->user();
 });
 
@@ -23,7 +27,19 @@ Route::group(['prefix' => 'v1'], function () {
     Route::resource('blogPosts', 'BlogPostAPIController');
 });
 
-
 Route::resource('mosques', 'MosqueAPIController');
 Route::resource('blog_posts', 'BlogPostAPIController');
 Route::resource('blogPosts', 'BlogPostAPIController');
+
+Route::group([
+    'middleware' => 'api',
+    'prefix' => 'auth'
+
+], function ($router) {
+
+    Route::post('login', 'AuthController@login');
+    Route::post('logout', 'AuthController@logout');
+    Route::post('refresh', 'AuthController@refresh');
+    Route::post('me', 'AuthController@me');
+
+});

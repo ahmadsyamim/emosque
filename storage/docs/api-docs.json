@@ -6,6 +6,61 @@
     },
     "basePath": "/api/v1",
     "paths": {
+        "/auth/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Login Auth.",
+                "description": "Login Auth",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "BlogPost that should be updated",
+                        "required": false,
+                        "schema": {
+                            "properties": {
+                                "email": {
+                                    "description": "Get a JWT via given credentials.",
+                                    "type": "string"
+                                },
+                                "password": {
+                                    "description": "Get a JWT via given credentials.",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "access_token": {
+                                    "description": "Get a JWT via given credentials.",
+                                    "type": "string"
+                                },
+                                "token_type": {
+                                    "description": "Get a JWT via given credentials.",
+                                    "type": "string"
+                                },
+                                "expires_in": {
+                                    "description": "Get a JWT via given credentials.",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
         "/blogPosts": {
             "get": {
                 "tags": [
