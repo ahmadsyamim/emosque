@@ -20,7 +20,7 @@
                     {
                         "name": "body",
                         "in": "body",
-                        "description": "BlogPost that should be updated",
+                        "description": "Body that should be sent",
                         "required": false,
                         "schema": {
                             "properties": {
@@ -52,6 +52,137 @@
                                 },
                                 "expires_in": {
                                     "description": "Get a JWT via given credentials.",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/me": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Return current user information.",
+                "description": "Return current user information",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Body that should be sent",
+                        "required": false,
+                        "schema": {
+                            "properties": {
+                                "token": {
+                                    "description": "Get the authenticated User.",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/logout": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Logout current user information.",
+                "description": "Logout current user information",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Body that should be sent",
+                        "required": false,
+                        "schema": {
+                            "properties": {
+                                "token": {
+                                    "description": "Log the user out (Invalidate the token).",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "message": {
+                                    "description": "Log the user out (Invalidate the token).",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/refresh": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "Refresh token.",
+                "description": "Refresh token",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Body that should be sent",
+                        "required": false,
+                        "schema": {
+                            "properties": {
+                                "token": {
+                                    "description": "Refresh a token.",
+                                    "type": "string"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "schema": {
+                            "properties": {
+                                "access_token": {
+                                    "description": "Refresh a token.",
+                                    "type": "string"
+                                },
+                                "token_type": {
+                                    "description": "Refresh a token.",
+                                    "type": "string"
+                                },
+                                "expires_in": {
+                                    "description": "Refresh a token.",
                                     "type": "integer"
                                 }
                             },
@@ -595,6 +726,62 @@
                     "description": "deleted_at",
                     "type": "string",
                     "format": "date-time"
+                }
+            }
+        },
+        "User": {
+            "required": [
+                ""
+            ],
+            "properties": {
+                "id": {
+                    "description": "id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "role_id": {
+                    "description": "role_id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "name": {
+                    "description": "name",
+                    "type": "string"
+                },
+                "email": {
+                    "description": "email",
+                    "type": "string"
+                },
+                "avatar": {
+                    "description": "avatar",
+                    "type": "string"
+                },
+                "email_verified_at": {
+                    "description": "email_verified_at",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "remember_token": {
+                    "description": "remember_token",
+                    "type": "string"
+                },
+                "settings": {
+                    "description": "settings",
+                    "type": "string"
+                },
+                "created_at": {
+                    "description": "created_at",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "updated_at": {
+                    "description": "updated_at",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "api_token": {
+                    "description": "api_token",
+                    "type": "string"
                 }
             }
         }

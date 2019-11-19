@@ -32,7 +32,7 @@ class AuthController extends Controller
      *      @SWG\Parameter(
      *          name="body",
      *          in="body",
-     *          description="BlogPost that should be updated",
+     *          description="Body that should be sent",
      *          required=false,
      *          @SWG\Schema(
      *              type="object",
@@ -71,12 +71,6 @@ class AuthController extends Controller
     {
         $credentials = request(['email', 'password']);
 
-        // if ($token = JWTAuth::attempt($credentials)) {
-        //     return $this->respondWithToken($token);
-        // }
-    
-        // return response()->json(['error' => 'Unauthorized'], 401);
-
         if (! $token = auth('api')->attempt($credentials)) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
@@ -88,6 +82,31 @@ class AuthController extends Controller
      * Get the authenticated User.
      *
      * @return \Illuminate\Http\JsonResponse
+     * * @SWG\Post(
+     *      path="/auth/me",
+     *      summary="Return current user information.",
+     *      tags={"Auth"},
+     *      description="Return current user information",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="body",
+     *          in="body",
+     *          description="Body that should be sent",
+     *          required=false,
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="token",
+     *                  type="string"
+     *              )
+     *          )
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(ref="#/definitions/User")
+     *      )
+     * )
      */
     public function me()
     {
@@ -98,18 +117,105 @@ class AuthController extends Controller
      * Log the user out (Invalidate the token).
      *
      * @return \Illuminate\Http\JsonResponse
+     * * * @SWG\Post(
+     *      path="/auth/logout",
+     *      summary="Logout current user information.",
+     *      tags={"Auth"},
+     *      description="Logout current user information",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="body",
+     *          in="body",
+     *          description="Body that should be sent",
+     *          required=false,
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="token",
+     *                  type="string"
+     *              )
+     *          )
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="message",
+     *                  type="string"
+     *              )
+     *          )
+     *      )
+     * )
      */
-    public function logout()
+    public function logout(Request $request)
     {
-        auth('api')->logout();
+        // Get JWT Token from the request header key "Authorization"
+        $token = $request->header("Authorization");
+        // Invalidate the token
+        try {
+            JWTAuth::invalidate(JWTAuth::getToken());
+            return response()->json([
+                "status" => "success", 
+                "message"=> "User successfully logged out."
+            ]);
+        } catch (JWTException $e) {
+            // something went wrong whilst attempting to encode the token
+            return response()->json([
+            "status" => "error", 
+            "message" => "Failed to logout, please try again."
+            ], 500);
+        }
 
-        return response()->json(['message' => 'Successfully logged out']);
+        // auth('api')->logout();
+
+        // return response()->json(['message' => 'Successfully logged out']);
     }
 
     /**
      * Refresh a token.
      *
      * @return \Illuminate\Http\JsonResponse
+     * * * @SWG\Post(
+     *      path="/auth/refresh",
+     *      summary="Refresh token.",
+     *      tags={"Auth"},
+     *      description="Refresh token",
+     *      produces={"application/json"},
+     *      @SWG\Parameter(
+     *          name="body",
+     *          in="body",
+     *          description="Body that should be sent",
+     *          required=false,
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="token",
+     *                  type="string"
+     *              )
+     *          )
+     *      ),
+     *      @SWG\Response(
+     *          response=200,
+     *          description="successful operation",
+     *          @SWG\Schema(
+     *              type="object",
+     *              @SWG\Property(
+     *                  property="access_token",
+     *                  type="string"
+     *              ),
+     *              @SWG\Property(
+     *                  property="token_type",
+     *                  type="string"
+     *              ),
+     *              @SWG\Property(
+     *                  property="expires_in",
+     *                  type="integer"
+     *              )
+     *          )
+     *      )
+     * )
      */
     public function refresh()
     {

@@ -8,7 +8,72 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 
-
+/**
+ * @SWG\Definition(
+ *      definition="User",
+ *      required={""},
+ *      @SWG\Property(
+ *          property="id",
+ *          description="id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="role_id",
+ *          description="role_id",
+ *          type="integer",
+ *          format="int32"
+ *      ),
+ *      @SWG\Property(
+ *          property="name",
+ *          description="name",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="email",
+ *          description="email",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="avatar",
+ *          description="avatar",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="email_verified_at",
+ *          description="email_verified_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="remember_token",
+ *          description="remember_token",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="settings",
+ *          description="settings",
+ *          type="string"
+ *      ),
+ *      @SWG\Property(
+ *          property="created_at",
+ *          description="created_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="updated_at",
+ *          description="updated_at",
+ *          type="string",
+ *          format="date-time"
+ *      ),
+ *      @SWG\Property(
+ *          property="api_token",
+ *          description="api_token",
+ *          type="string"
+ *      )
+ * )
+ */
 class User extends \TCG\Voyager\Models\User implements JWTSubject
 {
     use HasApiTokens,Notifiable;
