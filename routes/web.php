@@ -18,3 +18,4 @@ Route::group(['prefix' => 'admin'], function () {
 
 
 Route::resource('mosques', 'MosqueController');
+Route::resource('events', 'EventController');

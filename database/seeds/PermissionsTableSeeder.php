@@ -505,6 +505,46 @@ class PermissionsTableSeeder extends Seeder
                 'created_at' => '2019-11-17 22:28:46',
                 'updated_at' => '2019-11-17 22:28:46',
             ),
+            61 => 
+            array (
+                'id' => 62,
+                'key' => 'browse_events',
+                'table_name' => 'events',
+                'created_at' => '2019-11-20 02:25:10',
+                'updated_at' => '2019-11-20 02:25:10',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'key' => 'read_events',
+                'table_name' => 'events',
+                'created_at' => '2019-11-20 02:25:10',
+                'updated_at' => '2019-11-20 02:25:10',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'key' => 'edit_events',
+                'table_name' => 'events',
+                'created_at' => '2019-11-20 02:25:10',
+                'updated_at' => '2019-11-20 02:25:10',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'key' => 'add_events',
+                'table_name' => 'events',
+                'created_at' => '2019-11-20 02:25:10',
+                'updated_at' => '2019-11-20 02:25:10',
+            ),
+            65 => 
+            array (
+                'id' => 66,
+                'key' => 'delete_events',
+                'table_name' => 'events',
+                'created_at' => '2019-11-20 02:25:10',
+                'updated_at' => '2019-11-20 02:25:10',
+            ),
         ));
         
         
