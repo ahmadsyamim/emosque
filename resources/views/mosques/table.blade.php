@@ -3,14 +3,13 @@
         <thead>
             <tr>
                 <th>@lang('models/mosques.fields.name')</th>
-        <th>@lang('models/mosques.fields.image')</th>
-        <th>@lang('models/mosques.fields.description')</th>
-        <th>@lang('models/mosques.fields.address')</th>
-        <th>@lang('models/mosques.fields.website')</th>
-        <th>@lang('models/mosques.fields.prefectures')</th>
-        <th>@lang('models/mosques.fields.city')</th>
-        <th>@lang('models/mosques.fields.status')</th>
-                <th colspan="3">@lang('crud.action')</th>
+                <th>@lang('models/mosques.fields.image')</th>
+                <th>@lang('models/mosques.fields.description')</th>
+                <th>@lang('models/mosques.fields.address')</th>
+                <th>@lang('models/mosques.fields.website')</th>
+                <th>@lang('models/mosques.fields.prefectures')</th>
+                <th>@lang('models/mosques.fields.city')</th>
+                <th>@lang('models/mosques.fields.status')</th>
             </tr>
         </thead>
         <tbody>
