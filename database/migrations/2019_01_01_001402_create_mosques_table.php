@@ -22,6 +22,7 @@ class CreateMosquesTable extends Migration {
 			$table->string('website', 191)->nullable();
 			$table->string('prefectures', 191)->nullable();
 			$table->string('city', 191)->nullable();
+			$table->integer('country_id')->nullable();
 			$table->integer('status')->nullable();
 			$table->timestamps();
 			$table->softDeletes();
