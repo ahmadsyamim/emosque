@@ -26,10 +26,11 @@ class UsersTableSeeder extends Seeder
                 'avatar' => 'users/default.png',
                 'email_verified_at' => NULL,
                 'password' => '$2y$10$5APKJtDwxzvUcVMNUJxSBubBdl46PT7blisfiddRmRdpVQ..AvBbG',
-                'remember_token' => '912PmRb1EZE0xhsipelGmOPrC5kSJWpPTWXDMlLktB4DoTFdmRJmBZdJfvEy',
+                'remember_token' => 'C0gfoGdlrr2SPA4RraYzwjRtnzZAxnV8yLL1cpWmjzs1tMgCYzfcr5DbYGJY',
                 'settings' => NULL,
                 'created_at' => '2019-11-13 14:15:34',
                 'updated_at' => '2019-11-13 14:15:34',
+                'api_token' => 'NCR94Lgw62nuf6FjZ9Dvt65N3Lu0gacNVnrjfbuuUGVdfbWnlcTDiKSiuto2',
             ),
         ));
         
