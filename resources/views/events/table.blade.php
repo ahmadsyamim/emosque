@@ -20,7 +20,7 @@
                 <td>{!! $event->date_from !!}</td>
                 <td>{!! $event->date_to !!}</td>
                 <td>{!! $event->user_id !!}</td>
-                <td>{!! $event->mosque_id !!}</td>
+                <td>{!! $event->mosque->name !!}</td>
             </tr>
         @endforeach
         </tbody>

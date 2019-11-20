@@ -123,5 +123,11 @@ class Event extends Model
         
     ];
 
-    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function mosque()
+    {
+        return $this->belongsTo(\App\Models\Mosque::class, 'mosque_id');
+    }
 }
