@@ -57,6 +57,7 @@ class Country extends Model
     
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
+    public $timestamps = false;
 
 
     protected $dates = ['deleted_at'];

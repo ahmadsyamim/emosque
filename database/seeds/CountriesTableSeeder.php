@@ -26,6 +26,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AFG',
                 'numcode' => 4,
                 'phonecode' => 93,
+                'deleted_at' => NULL,
             ),
             1 => 
             array (
@@ -36,6 +37,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ALB',
                 'numcode' => 8,
                 'phonecode' => 355,
+                'deleted_at' => NULL,
             ),
             2 => 
             array (
@@ -46,6 +48,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DZA',
                 'numcode' => 12,
                 'phonecode' => 213,
+                'deleted_at' => NULL,
             ),
             3 => 
             array (
@@ -56,6 +59,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ASM',
                 'numcode' => 16,
                 'phonecode' => 1684,
+                'deleted_at' => NULL,
             ),
             4 => 
             array (
@@ -66,6 +70,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AND',
                 'numcode' => 20,
                 'phonecode' => 376,
+                'deleted_at' => NULL,
             ),
             5 => 
             array (
@@ -76,6 +81,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AGO',
                 'numcode' => 24,
                 'phonecode' => 244,
+                'deleted_at' => NULL,
             ),
             6 => 
             array (
@@ -86,6 +92,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AIA',
                 'numcode' => 660,
                 'phonecode' => 1264,
+                'deleted_at' => NULL,
             ),
             7 => 
             array (
@@ -96,6 +103,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             8 => 
             array (
@@ -106,6 +114,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ATG',
                 'numcode' => 28,
                 'phonecode' => 1268,
+                'deleted_at' => NULL,
             ),
             9 => 
             array (
@@ -116,6 +125,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ARG',
                 'numcode' => 32,
                 'phonecode' => 54,
+                'deleted_at' => NULL,
             ),
             10 => 
             array (
@@ -126,6 +136,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ARM',
                 'numcode' => 51,
                 'phonecode' => 374,
+                'deleted_at' => NULL,
             ),
             11 => 
             array (
@@ -136,6 +147,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ABW',
                 'numcode' => 533,
                 'phonecode' => 297,
+                'deleted_at' => NULL,
             ),
             12 => 
             array (
@@ -146,6 +158,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AUS',
                 'numcode' => 36,
                 'phonecode' => 61,
+                'deleted_at' => NULL,
             ),
             13 => 
             array (
@@ -156,6 +169,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AUT',
                 'numcode' => 40,
                 'phonecode' => 43,
+                'deleted_at' => NULL,
             ),
             14 => 
             array (
@@ -166,6 +180,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'AZE',
                 'numcode' => 31,
                 'phonecode' => 994,
+                'deleted_at' => NULL,
             ),
             15 => 
             array (
@@ -176,6 +191,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BHS',
                 'numcode' => 44,
                 'phonecode' => 1242,
+                'deleted_at' => NULL,
             ),
             16 => 
             array (
@@ -186,6 +202,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BHR',
                 'numcode' => 48,
                 'phonecode' => 973,
+                'deleted_at' => NULL,
             ),
             17 => 
             array (
@@ -196,6 +213,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BGD',
                 'numcode' => 50,
                 'phonecode' => 880,
+                'deleted_at' => NULL,
             ),
             18 => 
             array (
@@ -206,6 +224,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BRB',
                 'numcode' => 52,
                 'phonecode' => 1246,
+                'deleted_at' => NULL,
             ),
             19 => 
             array (
@@ -216,6 +235,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BLR',
                 'numcode' => 112,
                 'phonecode' => 375,
+                'deleted_at' => NULL,
             ),
             20 => 
             array (
@@ -226,6 +246,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BEL',
                 'numcode' => 56,
                 'phonecode' => 32,
+                'deleted_at' => NULL,
             ),
             21 => 
             array (
@@ -236,6 +257,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BLZ',
                 'numcode' => 84,
                 'phonecode' => 501,
+                'deleted_at' => NULL,
             ),
             22 => 
             array (
@@ -246,6 +268,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BEN',
                 'numcode' => 204,
                 'phonecode' => 229,
+                'deleted_at' => NULL,
             ),
             23 => 
             array (
@@ -256,6 +279,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BMU',
                 'numcode' => 60,
                 'phonecode' => 1441,
+                'deleted_at' => NULL,
             ),
             24 => 
             array (
@@ -266,6 +290,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BTN',
                 'numcode' => 64,
                 'phonecode' => 975,
+                'deleted_at' => NULL,
             ),
             25 => 
             array (
@@ -276,6 +301,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BOL',
                 'numcode' => 68,
                 'phonecode' => 591,
+                'deleted_at' => NULL,
             ),
             26 => 
             array (
@@ -286,6 +312,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BIH',
                 'numcode' => 70,
                 'phonecode' => 387,
+                'deleted_at' => NULL,
             ),
             27 => 
             array (
@@ -296,6 +323,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BWA',
                 'numcode' => 72,
                 'phonecode' => 267,
+                'deleted_at' => NULL,
             ),
             28 => 
             array (
@@ -306,6 +334,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             29 => 
             array (
@@ -316,6 +345,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BRA',
                 'numcode' => 76,
                 'phonecode' => 55,
+                'deleted_at' => NULL,
             ),
             30 => 
             array (
@@ -326,6 +356,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 246,
+                'deleted_at' => NULL,
             ),
             31 => 
             array (
@@ -336,6 +367,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BRN',
                 'numcode' => 96,
                 'phonecode' => 673,
+                'deleted_at' => NULL,
             ),
             32 => 
             array (
@@ -346,6 +378,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BGR',
                 'numcode' => 100,
                 'phonecode' => 359,
+                'deleted_at' => NULL,
             ),
             33 => 
             array (
@@ -356,6 +389,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BFA',
                 'numcode' => 854,
                 'phonecode' => 226,
+                'deleted_at' => NULL,
             ),
             34 => 
             array (
@@ -366,6 +400,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'BDI',
                 'numcode' => 108,
                 'phonecode' => 257,
+                'deleted_at' => NULL,
             ),
             35 => 
             array (
@@ -376,6 +411,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KHM',
                 'numcode' => 116,
                 'phonecode' => 855,
+                'deleted_at' => NULL,
             ),
             36 => 
             array (
@@ -386,6 +422,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CMR',
                 'numcode' => 120,
                 'phonecode' => 237,
+                'deleted_at' => NULL,
             ),
             37 => 
             array (
@@ -396,6 +433,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CAN',
                 'numcode' => 124,
                 'phonecode' => 1,
+                'deleted_at' => NULL,
             ),
             38 => 
             array (
@@ -406,6 +444,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CPV',
                 'numcode' => 132,
                 'phonecode' => 238,
+                'deleted_at' => NULL,
             ),
             39 => 
             array (
@@ -416,6 +455,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CYM',
                 'numcode' => 136,
                 'phonecode' => 1345,
+                'deleted_at' => NULL,
             ),
             40 => 
             array (
@@ -426,6 +466,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CAF',
                 'numcode' => 140,
                 'phonecode' => 236,
+                'deleted_at' => NULL,
             ),
             41 => 
             array (
@@ -436,6 +477,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TCD',
                 'numcode' => 148,
                 'phonecode' => 235,
+                'deleted_at' => NULL,
             ),
             42 => 
             array (
@@ -446,6 +488,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CHL',
                 'numcode' => 152,
                 'phonecode' => 56,
+                'deleted_at' => NULL,
             ),
             43 => 
             array (
@@ -456,6 +499,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CHN',
                 'numcode' => 156,
                 'phonecode' => 86,
+                'deleted_at' => NULL,
             ),
             44 => 
             array (
@@ -466,6 +510,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 61,
+                'deleted_at' => NULL,
             ),
             45 => 
             array (
@@ -476,6 +521,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 672,
+                'deleted_at' => NULL,
             ),
             46 => 
             array (
@@ -486,6 +532,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'COL',
                 'numcode' => 170,
                 'phonecode' => 57,
+                'deleted_at' => NULL,
             ),
             47 => 
             array (
@@ -496,6 +543,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'COM',
                 'numcode' => 174,
                 'phonecode' => 269,
+                'deleted_at' => NULL,
             ),
             48 => 
             array (
@@ -506,6 +554,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'COG',
                 'numcode' => 178,
                 'phonecode' => 242,
+                'deleted_at' => NULL,
             ),
             49 => 
             array (
@@ -516,6 +565,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'COD',
                 'numcode' => 180,
                 'phonecode' => 242,
+                'deleted_at' => NULL,
             ),
             50 => 
             array (
@@ -526,6 +576,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'COK',
                 'numcode' => 184,
                 'phonecode' => 682,
+                'deleted_at' => NULL,
             ),
             51 => 
             array (
@@ -536,6 +587,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CRI',
                 'numcode' => 188,
                 'phonecode' => 506,
+                'deleted_at' => NULL,
             ),
             52 => 
             array (
@@ -546,6 +598,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CIV',
                 'numcode' => 384,
                 'phonecode' => 225,
+                'deleted_at' => NULL,
             ),
             53 => 
             array (
@@ -556,6 +609,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'HRV',
                 'numcode' => 191,
                 'phonecode' => 385,
+                'deleted_at' => NULL,
             ),
             54 => 
             array (
@@ -566,6 +620,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CUB',
                 'numcode' => 192,
                 'phonecode' => 53,
+                'deleted_at' => NULL,
             ),
             55 => 
             array (
@@ -576,6 +631,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CYP',
                 'numcode' => 196,
                 'phonecode' => 357,
+                'deleted_at' => NULL,
             ),
             56 => 
             array (
@@ -586,6 +642,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CZE',
                 'numcode' => 203,
                 'phonecode' => 420,
+                'deleted_at' => NULL,
             ),
             57 => 
             array (
@@ -596,6 +653,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DNK',
                 'numcode' => 208,
                 'phonecode' => 45,
+                'deleted_at' => NULL,
             ),
             58 => 
             array (
@@ -606,6 +664,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DJI',
                 'numcode' => 262,
                 'phonecode' => 253,
+                'deleted_at' => NULL,
             ),
             59 => 
             array (
@@ -616,6 +675,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DMA',
                 'numcode' => 212,
                 'phonecode' => 1767,
+                'deleted_at' => NULL,
             ),
             60 => 
             array (
@@ -626,6 +686,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DOM',
                 'numcode' => 214,
                 'phonecode' => 1809,
+                'deleted_at' => NULL,
             ),
             61 => 
             array (
@@ -636,6 +697,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ECU',
                 'numcode' => 218,
                 'phonecode' => 593,
+                'deleted_at' => NULL,
             ),
             62 => 
             array (
@@ -646,6 +708,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'EGY',
                 'numcode' => 818,
                 'phonecode' => 20,
+                'deleted_at' => NULL,
             ),
             63 => 
             array (
@@ -656,6 +719,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SLV',
                 'numcode' => 222,
                 'phonecode' => 503,
+                'deleted_at' => NULL,
             ),
             64 => 
             array (
@@ -666,6 +730,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GNQ',
                 'numcode' => 226,
                 'phonecode' => 240,
+                'deleted_at' => NULL,
             ),
             65 => 
             array (
@@ -676,6 +741,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ERI',
                 'numcode' => 232,
                 'phonecode' => 291,
+                'deleted_at' => NULL,
             ),
             66 => 
             array (
@@ -686,6 +752,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'EST',
                 'numcode' => 233,
                 'phonecode' => 372,
+                'deleted_at' => NULL,
             ),
             67 => 
             array (
@@ -696,6 +763,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ETH',
                 'numcode' => 231,
                 'phonecode' => 251,
+                'deleted_at' => NULL,
             ),
             68 => 
             array (
@@ -706,6 +774,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FLK',
                 'numcode' => 238,
                 'phonecode' => 500,
+                'deleted_at' => NULL,
             ),
             69 => 
             array (
@@ -716,6 +785,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FRO',
                 'numcode' => 234,
                 'phonecode' => 298,
+                'deleted_at' => NULL,
             ),
             70 => 
             array (
@@ -726,6 +796,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FJI',
                 'numcode' => 242,
                 'phonecode' => 679,
+                'deleted_at' => NULL,
             ),
             71 => 
             array (
@@ -736,6 +807,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FIN',
                 'numcode' => 246,
                 'phonecode' => 358,
+                'deleted_at' => NULL,
             ),
             72 => 
             array (
@@ -746,6 +818,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FRA',
                 'numcode' => 250,
                 'phonecode' => 33,
+                'deleted_at' => NULL,
             ),
             73 => 
             array (
@@ -756,6 +829,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GUF',
                 'numcode' => 254,
                 'phonecode' => 594,
+                'deleted_at' => NULL,
             ),
             74 => 
             array (
@@ -766,6 +840,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PYF',
                 'numcode' => 258,
                 'phonecode' => 689,
+                'deleted_at' => NULL,
             ),
             75 => 
             array (
@@ -776,6 +851,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             76 => 
             array (
@@ -786,6 +862,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GAB',
                 'numcode' => 266,
                 'phonecode' => 241,
+                'deleted_at' => NULL,
             ),
             77 => 
             array (
@@ -796,6 +873,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GMB',
                 'numcode' => 270,
                 'phonecode' => 220,
+                'deleted_at' => NULL,
             ),
             78 => 
             array (
@@ -806,6 +884,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GEO',
                 'numcode' => 268,
                 'phonecode' => 995,
+                'deleted_at' => NULL,
             ),
             79 => 
             array (
@@ -816,6 +895,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'DEU',
                 'numcode' => 276,
                 'phonecode' => 49,
+                'deleted_at' => NULL,
             ),
             80 => 
             array (
@@ -826,6 +906,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GHA',
                 'numcode' => 288,
                 'phonecode' => 233,
+                'deleted_at' => NULL,
             ),
             81 => 
             array (
@@ -836,6 +917,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GIB',
                 'numcode' => 292,
                 'phonecode' => 350,
+                'deleted_at' => NULL,
             ),
             82 => 
             array (
@@ -846,6 +928,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GRC',
                 'numcode' => 300,
                 'phonecode' => 30,
+                'deleted_at' => NULL,
             ),
             83 => 
             array (
@@ -856,6 +939,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GRL',
                 'numcode' => 304,
                 'phonecode' => 299,
+                'deleted_at' => NULL,
             ),
             84 => 
             array (
@@ -866,6 +950,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GRD',
                 'numcode' => 308,
                 'phonecode' => 1473,
+                'deleted_at' => NULL,
             ),
             85 => 
             array (
@@ -876,6 +961,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GLP',
                 'numcode' => 312,
                 'phonecode' => 590,
+                'deleted_at' => NULL,
             ),
             86 => 
             array (
@@ -886,6 +972,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GUM',
                 'numcode' => 316,
                 'phonecode' => 1671,
+                'deleted_at' => NULL,
             ),
             87 => 
             array (
@@ -896,6 +983,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GTM',
                 'numcode' => 320,
                 'phonecode' => 502,
+                'deleted_at' => NULL,
             ),
             88 => 
             array (
@@ -906,6 +994,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GIN',
                 'numcode' => 324,
                 'phonecode' => 224,
+                'deleted_at' => NULL,
             ),
             89 => 
             array (
@@ -916,6 +1005,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GNB',
                 'numcode' => 624,
                 'phonecode' => 245,
+                'deleted_at' => NULL,
             ),
             90 => 
             array (
@@ -926,6 +1016,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GUY',
                 'numcode' => 328,
                 'phonecode' => 592,
+                'deleted_at' => NULL,
             ),
             91 => 
             array (
@@ -936,6 +1027,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'HTI',
                 'numcode' => 332,
                 'phonecode' => 509,
+                'deleted_at' => NULL,
             ),
             92 => 
             array (
@@ -946,6 +1038,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             93 => 
             array (
@@ -956,6 +1049,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VAT',
                 'numcode' => 336,
                 'phonecode' => 39,
+                'deleted_at' => NULL,
             ),
             94 => 
             array (
@@ -966,6 +1060,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'HND',
                 'numcode' => 340,
                 'phonecode' => 504,
+                'deleted_at' => NULL,
             ),
             95 => 
             array (
@@ -976,6 +1071,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'HKG',
                 'numcode' => 344,
                 'phonecode' => 852,
+                'deleted_at' => NULL,
             ),
             96 => 
             array (
@@ -986,6 +1082,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'HUN',
                 'numcode' => 348,
                 'phonecode' => 36,
+                'deleted_at' => NULL,
             ),
             97 => 
             array (
@@ -996,6 +1093,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ISL',
                 'numcode' => 352,
                 'phonecode' => 354,
+                'deleted_at' => NULL,
             ),
             98 => 
             array (
@@ -1006,6 +1104,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'IND',
                 'numcode' => 356,
                 'phonecode' => 91,
+                'deleted_at' => NULL,
             ),
             99 => 
             array (
@@ -1016,6 +1115,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'IDN',
                 'numcode' => 360,
                 'phonecode' => 62,
+                'deleted_at' => NULL,
             ),
             100 => 
             array (
@@ -1026,6 +1126,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'IRN',
                 'numcode' => 364,
                 'phonecode' => 98,
+                'deleted_at' => NULL,
             ),
             101 => 
             array (
@@ -1036,6 +1137,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'IRQ',
                 'numcode' => 368,
                 'phonecode' => 964,
+                'deleted_at' => NULL,
             ),
             102 => 
             array (
@@ -1046,6 +1148,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'IRL',
                 'numcode' => 372,
                 'phonecode' => 353,
+                'deleted_at' => NULL,
             ),
             103 => 
             array (
@@ -1056,6 +1159,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ISR',
                 'numcode' => 376,
                 'phonecode' => 972,
+                'deleted_at' => NULL,
             ),
             104 => 
             array (
@@ -1066,6 +1170,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ITA',
                 'numcode' => 380,
                 'phonecode' => 39,
+                'deleted_at' => NULL,
             ),
             105 => 
             array (
@@ -1076,6 +1181,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'JAM',
                 'numcode' => 388,
                 'phonecode' => 1876,
+                'deleted_at' => NULL,
             ),
             106 => 
             array (
@@ -1086,6 +1192,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'JPN',
                 'numcode' => 392,
                 'phonecode' => 81,
+                'deleted_at' => NULL,
             ),
             107 => 
             array (
@@ -1096,6 +1203,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'JOR',
                 'numcode' => 400,
                 'phonecode' => 962,
+                'deleted_at' => NULL,
             ),
             108 => 
             array (
@@ -1106,6 +1214,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KAZ',
                 'numcode' => 398,
                 'phonecode' => 7,
+                'deleted_at' => NULL,
             ),
             109 => 
             array (
@@ -1116,6 +1225,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KEN',
                 'numcode' => 404,
                 'phonecode' => 254,
+                'deleted_at' => NULL,
             ),
             110 => 
             array (
@@ -1126,6 +1236,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KIR',
                 'numcode' => 296,
                 'phonecode' => 686,
+                'deleted_at' => NULL,
             ),
             111 => 
             array (
@@ -1136,6 +1247,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PRK',
                 'numcode' => 408,
                 'phonecode' => 850,
+                'deleted_at' => NULL,
             ),
             112 => 
             array (
@@ -1146,6 +1258,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KOR',
                 'numcode' => 410,
                 'phonecode' => 82,
+                'deleted_at' => NULL,
             ),
             113 => 
             array (
@@ -1156,6 +1269,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KWT',
                 'numcode' => 414,
                 'phonecode' => 965,
+                'deleted_at' => NULL,
             ),
             114 => 
             array (
@@ -1166,6 +1280,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KGZ',
                 'numcode' => 417,
                 'phonecode' => 996,
+                'deleted_at' => NULL,
             ),
             115 => 
             array (
@@ -1176,6 +1291,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LAO',
                 'numcode' => 418,
                 'phonecode' => 856,
+                'deleted_at' => NULL,
             ),
             116 => 
             array (
@@ -1186,6 +1302,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LVA',
                 'numcode' => 428,
                 'phonecode' => 371,
+                'deleted_at' => NULL,
             ),
             117 => 
             array (
@@ -1196,6 +1313,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LBN',
                 'numcode' => 422,
                 'phonecode' => 961,
+                'deleted_at' => NULL,
             ),
             118 => 
             array (
@@ -1206,6 +1324,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LSO',
                 'numcode' => 426,
                 'phonecode' => 266,
+                'deleted_at' => NULL,
             ),
             119 => 
             array (
@@ -1216,6 +1335,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LBR',
                 'numcode' => 430,
                 'phonecode' => 231,
+                'deleted_at' => NULL,
             ),
             120 => 
             array (
@@ -1226,6 +1346,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LBY',
                 'numcode' => 434,
                 'phonecode' => 218,
+                'deleted_at' => NULL,
             ),
             121 => 
             array (
@@ -1236,6 +1357,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LIE',
                 'numcode' => 438,
                 'phonecode' => 423,
+                'deleted_at' => NULL,
             ),
             122 => 
             array (
@@ -1246,6 +1368,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LTU',
                 'numcode' => 440,
                 'phonecode' => 370,
+                'deleted_at' => NULL,
             ),
             123 => 
             array (
@@ -1256,6 +1379,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LUX',
                 'numcode' => 442,
                 'phonecode' => 352,
+                'deleted_at' => NULL,
             ),
             124 => 
             array (
@@ -1266,6 +1390,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MAC',
                 'numcode' => 446,
                 'phonecode' => 853,
+                'deleted_at' => NULL,
             ),
             125 => 
             array (
@@ -1276,6 +1401,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MKD',
                 'numcode' => 807,
                 'phonecode' => 389,
+                'deleted_at' => NULL,
             ),
             126 => 
             array (
@@ -1286,6 +1412,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MDG',
                 'numcode' => 450,
                 'phonecode' => 261,
+                'deleted_at' => NULL,
             ),
             127 => 
             array (
@@ -1296,6 +1423,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MWI',
                 'numcode' => 454,
                 'phonecode' => 265,
+                'deleted_at' => NULL,
             ),
             128 => 
             array (
@@ -1306,6 +1434,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MYS',
                 'numcode' => 458,
                 'phonecode' => 60,
+                'deleted_at' => NULL,
             ),
             129 => 
             array (
@@ -1316,6 +1445,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MDV',
                 'numcode' => 462,
                 'phonecode' => 960,
+                'deleted_at' => NULL,
             ),
             130 => 
             array (
@@ -1326,6 +1456,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MLI',
                 'numcode' => 466,
                 'phonecode' => 223,
+                'deleted_at' => NULL,
             ),
             131 => 
             array (
@@ -1336,6 +1467,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MLT',
                 'numcode' => 470,
                 'phonecode' => 356,
+                'deleted_at' => NULL,
             ),
             132 => 
             array (
@@ -1346,6 +1478,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MHL',
                 'numcode' => 584,
                 'phonecode' => 692,
+                'deleted_at' => NULL,
             ),
             133 => 
             array (
@@ -1356,6 +1489,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MTQ',
                 'numcode' => 474,
                 'phonecode' => 596,
+                'deleted_at' => NULL,
             ),
             134 => 
             array (
@@ -1366,6 +1500,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MRT',
                 'numcode' => 478,
                 'phonecode' => 222,
+                'deleted_at' => NULL,
             ),
             135 => 
             array (
@@ -1376,6 +1511,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MUS',
                 'numcode' => 480,
                 'phonecode' => 230,
+                'deleted_at' => NULL,
             ),
             136 => 
             array (
@@ -1386,6 +1522,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 269,
+                'deleted_at' => NULL,
             ),
             137 => 
             array (
@@ -1396,6 +1533,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MEX',
                 'numcode' => 484,
                 'phonecode' => 52,
+                'deleted_at' => NULL,
             ),
             138 => 
             array (
@@ -1406,6 +1544,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'FSM',
                 'numcode' => 583,
                 'phonecode' => 691,
+                'deleted_at' => NULL,
             ),
             139 => 
             array (
@@ -1416,6 +1555,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MDA',
                 'numcode' => 498,
                 'phonecode' => 373,
+                'deleted_at' => NULL,
             ),
             140 => 
             array (
@@ -1426,6 +1566,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MCO',
                 'numcode' => 492,
                 'phonecode' => 377,
+                'deleted_at' => NULL,
             ),
             141 => 
             array (
@@ -1436,6 +1577,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MNG',
                 'numcode' => 496,
                 'phonecode' => 976,
+                'deleted_at' => NULL,
             ),
             142 => 
             array (
@@ -1446,6 +1588,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MSR',
                 'numcode' => 500,
                 'phonecode' => 1664,
+                'deleted_at' => NULL,
             ),
             143 => 
             array (
@@ -1456,6 +1599,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MAR',
                 'numcode' => 504,
                 'phonecode' => 212,
+                'deleted_at' => NULL,
             ),
             144 => 
             array (
@@ -1466,6 +1610,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MOZ',
                 'numcode' => 508,
                 'phonecode' => 258,
+                'deleted_at' => NULL,
             ),
             145 => 
             array (
@@ -1476,6 +1621,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MMR',
                 'numcode' => 104,
                 'phonecode' => 95,
+                'deleted_at' => NULL,
             ),
             146 => 
             array (
@@ -1486,6 +1632,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NAM',
                 'numcode' => 516,
                 'phonecode' => 264,
+                'deleted_at' => NULL,
             ),
             147 => 
             array (
@@ -1496,6 +1643,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NRU',
                 'numcode' => 520,
                 'phonecode' => 674,
+                'deleted_at' => NULL,
             ),
             148 => 
             array (
@@ -1506,6 +1654,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NPL',
                 'numcode' => 524,
                 'phonecode' => 977,
+                'deleted_at' => NULL,
             ),
             149 => 
             array (
@@ -1516,6 +1665,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NLD',
                 'numcode' => 528,
                 'phonecode' => 31,
+                'deleted_at' => NULL,
             ),
             150 => 
             array (
@@ -1526,6 +1676,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ANT',
                 'numcode' => 530,
                 'phonecode' => 599,
+                'deleted_at' => NULL,
             ),
             151 => 
             array (
@@ -1536,6 +1687,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NCL',
                 'numcode' => 540,
                 'phonecode' => 687,
+                'deleted_at' => NULL,
             ),
             152 => 
             array (
@@ -1546,6 +1698,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NZL',
                 'numcode' => 554,
                 'phonecode' => 64,
+                'deleted_at' => NULL,
             ),
             153 => 
             array (
@@ -1556,6 +1709,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NIC',
                 'numcode' => 558,
                 'phonecode' => 505,
+                'deleted_at' => NULL,
             ),
             154 => 
             array (
@@ -1566,6 +1720,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NER',
                 'numcode' => 562,
                 'phonecode' => 227,
+                'deleted_at' => NULL,
             ),
             155 => 
             array (
@@ -1576,6 +1731,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NGA',
                 'numcode' => 566,
                 'phonecode' => 234,
+                'deleted_at' => NULL,
             ),
             156 => 
             array (
@@ -1586,6 +1742,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NIU',
                 'numcode' => 570,
                 'phonecode' => 683,
+                'deleted_at' => NULL,
             ),
             157 => 
             array (
@@ -1596,6 +1753,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NFK',
                 'numcode' => 574,
                 'phonecode' => 672,
+                'deleted_at' => NULL,
             ),
             158 => 
             array (
@@ -1606,6 +1764,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'MNP',
                 'numcode' => 580,
                 'phonecode' => 1670,
+                'deleted_at' => NULL,
             ),
             159 => 
             array (
@@ -1616,6 +1775,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'NOR',
                 'numcode' => 578,
                 'phonecode' => 47,
+                'deleted_at' => NULL,
             ),
             160 => 
             array (
@@ -1626,6 +1786,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'OMN',
                 'numcode' => 512,
                 'phonecode' => 968,
+                'deleted_at' => NULL,
             ),
             161 => 
             array (
@@ -1636,6 +1797,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PAK',
                 'numcode' => 586,
                 'phonecode' => 92,
+                'deleted_at' => NULL,
             ),
             162 => 
             array (
@@ -1646,6 +1808,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PLW',
                 'numcode' => 585,
                 'phonecode' => 680,
+                'deleted_at' => NULL,
             ),
             163 => 
             array (
@@ -1656,6 +1819,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 970,
+                'deleted_at' => NULL,
             ),
             164 => 
             array (
@@ -1666,6 +1830,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PAN',
                 'numcode' => 591,
                 'phonecode' => 507,
+                'deleted_at' => NULL,
             ),
             165 => 
             array (
@@ -1676,6 +1841,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PNG',
                 'numcode' => 598,
                 'phonecode' => 675,
+                'deleted_at' => NULL,
             ),
             166 => 
             array (
@@ -1686,6 +1852,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PRY',
                 'numcode' => 600,
                 'phonecode' => 595,
+                'deleted_at' => NULL,
             ),
             167 => 
             array (
@@ -1696,6 +1863,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PER',
                 'numcode' => 604,
                 'phonecode' => 51,
+                'deleted_at' => NULL,
             ),
             168 => 
             array (
@@ -1706,6 +1874,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PHL',
                 'numcode' => 608,
                 'phonecode' => 63,
+                'deleted_at' => NULL,
             ),
             169 => 
             array (
@@ -1716,6 +1885,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PCN',
                 'numcode' => 612,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             170 => 
             array (
@@ -1726,6 +1896,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'POL',
                 'numcode' => 616,
                 'phonecode' => 48,
+                'deleted_at' => NULL,
             ),
             171 => 
             array (
@@ -1736,6 +1907,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PRT',
                 'numcode' => 620,
                 'phonecode' => 351,
+                'deleted_at' => NULL,
             ),
             172 => 
             array (
@@ -1746,6 +1918,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'PRI',
                 'numcode' => 630,
                 'phonecode' => 1787,
+                'deleted_at' => NULL,
             ),
             173 => 
             array (
@@ -1756,6 +1929,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'QAT',
                 'numcode' => 634,
                 'phonecode' => 974,
+                'deleted_at' => NULL,
             ),
             174 => 
             array (
@@ -1766,6 +1940,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'REU',
                 'numcode' => 638,
                 'phonecode' => 262,
+                'deleted_at' => NULL,
             ),
             175 => 
             array (
@@ -1776,6 +1951,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ROM',
                 'numcode' => 642,
                 'phonecode' => 40,
+                'deleted_at' => NULL,
             ),
             176 => 
             array (
@@ -1786,6 +1962,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'RUS',
                 'numcode' => 643,
                 'phonecode' => 70,
+                'deleted_at' => NULL,
             ),
             177 => 
             array (
@@ -1796,6 +1973,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'RWA',
                 'numcode' => 646,
                 'phonecode' => 250,
+                'deleted_at' => NULL,
             ),
             178 => 
             array (
@@ -1806,6 +1984,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SHN',
                 'numcode' => 654,
                 'phonecode' => 290,
+                'deleted_at' => NULL,
             ),
             179 => 
             array (
@@ -1816,6 +1995,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'KNA',
                 'numcode' => 659,
                 'phonecode' => 1869,
+                'deleted_at' => NULL,
             ),
             180 => 
             array (
@@ -1826,6 +2006,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LCA',
                 'numcode' => 662,
                 'phonecode' => 1758,
+                'deleted_at' => NULL,
             ),
             181 => 
             array (
@@ -1836,6 +2017,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SPM',
                 'numcode' => 666,
                 'phonecode' => 508,
+                'deleted_at' => NULL,
             ),
             182 => 
             array (
@@ -1846,6 +2028,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VCT',
                 'numcode' => 670,
                 'phonecode' => 1784,
+                'deleted_at' => NULL,
             ),
             183 => 
             array (
@@ -1856,6 +2039,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'WSM',
                 'numcode' => 882,
                 'phonecode' => 684,
+                'deleted_at' => NULL,
             ),
             184 => 
             array (
@@ -1866,6 +2050,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SMR',
                 'numcode' => 674,
                 'phonecode' => 378,
+                'deleted_at' => NULL,
             ),
             185 => 
             array (
@@ -1876,6 +2061,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'STP',
                 'numcode' => 678,
                 'phonecode' => 239,
+                'deleted_at' => NULL,
             ),
             186 => 
             array (
@@ -1886,6 +2072,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SAU',
                 'numcode' => 682,
                 'phonecode' => 966,
+                'deleted_at' => NULL,
             ),
             187 => 
             array (
@@ -1896,6 +2083,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SEN',
                 'numcode' => 686,
                 'phonecode' => 221,
+                'deleted_at' => NULL,
             ),
             188 => 
             array (
@@ -1906,6 +2094,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 381,
+                'deleted_at' => NULL,
             ),
             189 => 
             array (
@@ -1916,6 +2105,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SYC',
                 'numcode' => 690,
                 'phonecode' => 248,
+                'deleted_at' => NULL,
             ),
             190 => 
             array (
@@ -1926,6 +2116,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SLE',
                 'numcode' => 694,
                 'phonecode' => 232,
+                'deleted_at' => NULL,
             ),
             191 => 
             array (
@@ -1936,6 +2127,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SGP',
                 'numcode' => 702,
                 'phonecode' => 65,
+                'deleted_at' => NULL,
             ),
             192 => 
             array (
@@ -1946,6 +2138,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SVK',
                 'numcode' => 703,
                 'phonecode' => 421,
+                'deleted_at' => NULL,
             ),
             193 => 
             array (
@@ -1956,6 +2149,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SVN',
                 'numcode' => 705,
                 'phonecode' => 386,
+                'deleted_at' => NULL,
             ),
             194 => 
             array (
@@ -1966,6 +2160,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SLB',
                 'numcode' => 90,
                 'phonecode' => 677,
+                'deleted_at' => NULL,
             ),
             195 => 
             array (
@@ -1976,6 +2171,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SOM',
                 'numcode' => 706,
                 'phonecode' => 252,
+                'deleted_at' => NULL,
             ),
             196 => 
             array (
@@ -1986,6 +2182,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ZAF',
                 'numcode' => 710,
                 'phonecode' => 27,
+                'deleted_at' => NULL,
             ),
             197 => 
             array (
@@ -1996,6 +2193,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 0,
+                'deleted_at' => NULL,
             ),
             198 => 
             array (
@@ -2006,6 +2204,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ESP',
                 'numcode' => 724,
                 'phonecode' => 34,
+                'deleted_at' => NULL,
             ),
             199 => 
             array (
@@ -2016,6 +2215,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'LKA',
                 'numcode' => 144,
                 'phonecode' => 94,
+                'deleted_at' => NULL,
             ),
             200 => 
             array (
@@ -2026,6 +2226,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SDN',
                 'numcode' => 736,
                 'phonecode' => 249,
+                'deleted_at' => NULL,
             ),
             201 => 
             array (
@@ -2036,6 +2237,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SUR',
                 'numcode' => 740,
                 'phonecode' => 597,
+                'deleted_at' => NULL,
             ),
             202 => 
             array (
@@ -2046,6 +2248,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SJM',
                 'numcode' => 744,
                 'phonecode' => 47,
+                'deleted_at' => NULL,
             ),
             203 => 
             array (
@@ -2056,6 +2259,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SWZ',
                 'numcode' => 748,
                 'phonecode' => 268,
+                'deleted_at' => NULL,
             ),
             204 => 
             array (
@@ -2066,6 +2270,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SWE',
                 'numcode' => 752,
                 'phonecode' => 46,
+                'deleted_at' => NULL,
             ),
             205 => 
             array (
@@ -2076,6 +2281,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'CHE',
                 'numcode' => 756,
                 'phonecode' => 41,
+                'deleted_at' => NULL,
             ),
             206 => 
             array (
@@ -2086,6 +2292,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'SYR',
                 'numcode' => 760,
                 'phonecode' => 963,
+                'deleted_at' => NULL,
             ),
             207 => 
             array (
@@ -2096,6 +2303,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TWN',
                 'numcode' => 158,
                 'phonecode' => 886,
+                'deleted_at' => NULL,
             ),
             208 => 
             array (
@@ -2106,6 +2314,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TJK',
                 'numcode' => 762,
                 'phonecode' => 992,
+                'deleted_at' => NULL,
             ),
             209 => 
             array (
@@ -2116,6 +2325,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TZA',
                 'numcode' => 834,
                 'phonecode' => 255,
+                'deleted_at' => NULL,
             ),
             210 => 
             array (
@@ -2126,6 +2336,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'THA',
                 'numcode' => 764,
                 'phonecode' => 66,
+                'deleted_at' => NULL,
             ),
             211 => 
             array (
@@ -2136,6 +2347,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 670,
+                'deleted_at' => NULL,
             ),
             212 => 
             array (
@@ -2146,6 +2358,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TGO',
                 'numcode' => 768,
                 'phonecode' => 228,
+                'deleted_at' => NULL,
             ),
             213 => 
             array (
@@ -2156,6 +2369,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TKL',
                 'numcode' => 772,
                 'phonecode' => 690,
+                'deleted_at' => NULL,
             ),
             214 => 
             array (
@@ -2166,6 +2380,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TON',
                 'numcode' => 776,
                 'phonecode' => 676,
+                'deleted_at' => NULL,
             ),
             215 => 
             array (
@@ -2176,6 +2391,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TTO',
                 'numcode' => 780,
                 'phonecode' => 1868,
+                'deleted_at' => NULL,
             ),
             216 => 
             array (
@@ -2186,6 +2402,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TUN',
                 'numcode' => 788,
                 'phonecode' => 216,
+                'deleted_at' => NULL,
             ),
             217 => 
             array (
@@ -2196,6 +2413,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TUR',
                 'numcode' => 792,
                 'phonecode' => 90,
+                'deleted_at' => NULL,
             ),
             218 => 
             array (
@@ -2206,6 +2424,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TKM',
                 'numcode' => 795,
                 'phonecode' => 7370,
+                'deleted_at' => NULL,
             ),
             219 => 
             array (
@@ -2216,6 +2435,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TCA',
                 'numcode' => 796,
                 'phonecode' => 1649,
+                'deleted_at' => NULL,
             ),
             220 => 
             array (
@@ -2226,6 +2446,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'TUV',
                 'numcode' => 798,
                 'phonecode' => 688,
+                'deleted_at' => NULL,
             ),
             221 => 
             array (
@@ -2236,6 +2457,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'UGA',
                 'numcode' => 800,
                 'phonecode' => 256,
+                'deleted_at' => NULL,
             ),
             222 => 
             array (
@@ -2246,6 +2468,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'UKR',
                 'numcode' => 804,
                 'phonecode' => 380,
+                'deleted_at' => NULL,
             ),
             223 => 
             array (
@@ -2256,6 +2479,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ARE',
                 'numcode' => 784,
                 'phonecode' => 971,
+                'deleted_at' => NULL,
             ),
             224 => 
             array (
@@ -2266,6 +2490,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'GBR',
                 'numcode' => 826,
                 'phonecode' => 44,
+                'deleted_at' => NULL,
             ),
             225 => 
             array (
@@ -2276,6 +2501,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'USA',
                 'numcode' => 840,
                 'phonecode' => 1,
+                'deleted_at' => NULL,
             ),
             226 => 
             array (
@@ -2286,6 +2512,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => NULL,
                 'numcode' => NULL,
                 'phonecode' => 1,
+                'deleted_at' => NULL,
             ),
             227 => 
             array (
@@ -2296,6 +2523,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'URY',
                 'numcode' => 858,
                 'phonecode' => 598,
+                'deleted_at' => NULL,
             ),
             228 => 
             array (
@@ -2306,6 +2534,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'UZB',
                 'numcode' => 860,
                 'phonecode' => 998,
+                'deleted_at' => NULL,
             ),
             229 => 
             array (
@@ -2316,6 +2545,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VUT',
                 'numcode' => 548,
                 'phonecode' => 678,
+                'deleted_at' => NULL,
             ),
             230 => 
             array (
@@ -2326,6 +2556,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VEN',
                 'numcode' => 862,
                 'phonecode' => 58,
+                'deleted_at' => NULL,
             ),
             231 => 
             array (
@@ -2336,6 +2567,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VNM',
                 'numcode' => 704,
                 'phonecode' => 84,
+                'deleted_at' => NULL,
             ),
             232 => 
             array (
@@ -2346,6 +2578,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VGB',
                 'numcode' => 92,
                 'phonecode' => 1284,
+                'deleted_at' => NULL,
             ),
             233 => 
             array (
@@ -2356,6 +2589,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'VIR',
                 'numcode' => 850,
                 'phonecode' => 1340,
+                'deleted_at' => NULL,
             ),
             234 => 
             array (
@@ -2366,6 +2600,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'WLF',
                 'numcode' => 876,
                 'phonecode' => 681,
+                'deleted_at' => NULL,
             ),
             235 => 
             array (
@@ -2376,6 +2611,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ESH',
                 'numcode' => 732,
                 'phonecode' => 212,
+                'deleted_at' => NULL,
             ),
             236 => 
             array (
@@ -2386,6 +2622,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'YEM',
                 'numcode' => 887,
                 'phonecode' => 967,
+                'deleted_at' => NULL,
             ),
             237 => 
             array (
@@ -2396,6 +2633,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ZMB',
                 'numcode' => 894,
                 'phonecode' => 260,
+                'deleted_at' => NULL,
             ),
             238 => 
             array (
@@ -2406,6 +2644,7 @@ class CountriesTableSeeder extends Seeder
                 'iso3' => 'ZWE',
                 'numcode' => 716,
                 'phonecode' => 263,
+                'deleted_at' => NULL,
             ),
         ));
         

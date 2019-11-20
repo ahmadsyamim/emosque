@@ -127,5 +127,11 @@ class Mosque extends Model
         'name' => 'required'
     ];
 
-    
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     **/
+    public function country()
+    {
+        return $this->belongsTo(\App\Models\Country::class, 'country_id');
+    }
 }

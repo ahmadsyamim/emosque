@@ -31,7 +31,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             1 => 
             array (
@@ -47,7 +47,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             2 => 
             array (
@@ -63,7 +63,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             3 => 
             array (
@@ -79,7 +79,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             4 => 
             array (
@@ -95,7 +95,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             5 => 
             array (
@@ -111,7 +111,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             6 => 
             array (
@@ -127,7 +127,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             7 => 
             array (
@@ -143,7 +143,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             8 => 
             array (
@@ -159,7 +159,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             9 => 
             array (
@@ -175,7 +175,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             10 => 
             array (
@@ -191,7 +191,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             11 => 
             array (
@@ -207,7 +207,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             12 => 
             array (
@@ -223,7 +223,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             13 => 
             array (
@@ -239,7 +239,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             14 => 
             array (
@@ -255,7 +255,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             15 => 
             array (
@@ -271,7 +271,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             16 => 
             array (
@@ -287,7 +287,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             17 => 
             array (
@@ -303,7 +303,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             18 => 
             array (
@@ -319,7 +319,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             19 => 
             array (
@@ -335,7 +335,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             20 => 
             array (
@@ -351,7 +351,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             21 => 
             array (
@@ -367,7 +367,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             22 => 
             array (
@@ -383,7 +383,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             23 => 
             array (
@@ -399,7 +399,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             24 => 
             array (
@@ -415,7 +415,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             25 => 
             array (
@@ -431,7 +431,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             26 => 
             array (
@@ -447,7 +447,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             27 => 
             array (
@@ -463,7 +463,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             28 => 
             array (
@@ -479,7 +479,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             29 => 
             array (
@@ -495,7 +495,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
             30 => 
             array (
@@ -511,7 +511,7 @@ class MosquesTableSeeder extends Seeder
                 'created_at' => NULL,
                 'updated_at' => NULL,
                 'deleted_at' => NULL,
-                'country_id' => NULL,
+                'country_id' => 107,
             ),
         ));
         
