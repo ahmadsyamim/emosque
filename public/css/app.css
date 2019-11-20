@@ -10455,3 +10455,6 @@ footer.bottom-footer .copyright {
   }
 }
 
+main.main-content {
+  padding: 20px 50px;
+}
