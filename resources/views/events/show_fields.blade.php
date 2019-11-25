@@ -37,6 +37,6 @@
 <!-- Mosque Id Field -->
 <div class="form-group">
     {!! Form::label('mosque_id', __('models/events.fields.mosque_id').':') !!}
-    <p>{!! $event->mosque_id !!}</p>
+    <p>{!! $event->mosque->name !!}</p>
 </div>
 

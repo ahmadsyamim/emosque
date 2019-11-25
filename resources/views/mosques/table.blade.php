@@ -9,7 +9,7 @@
                 <th>@lang('models/mosques.fields.website')</th>
                 <th>@lang('models/mosques.fields.prefectures')</th>
                 <th>@lang('models/mosques.fields.city')</th>
-                <th>@lang('models/mosques.fields.status')</th>
+                <th>@lang('models/mosques.fields.country')</th>
             </tr>
         </thead>
         <tbody>
@@ -22,7 +22,7 @@
                 <td>{!! $mosque->website !!}</td>
                 <td>{!! $mosque->prefectures !!}</td>
                 <td>{!! $mosque->city !!}</td>
-                <td>{!! $mosque->status !!}</td>
+                <td>{!! $mosque->country->nicename !!}</td>
             </tr>
         @endforeach
         </tbody>

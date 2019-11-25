@@ -42,7 +42,7 @@
 
 <!-- Status Field -->
 <div class="form-group">
-    {!! Form::label('status', __('models/mosques.fields.status').':') !!}
-    <p>{!! $mosque->status !!}</p>
+    {!! Form::label('country', __('models/mosques.fields.country').':') !!}
+    <p>{!! $mosque->country->nicename !!}</p>
 </div>
 

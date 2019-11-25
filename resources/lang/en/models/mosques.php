@@ -13,6 +13,7 @@ return array (
     'website' => 'Website',
     'prefectures' => 'Prefectures',
     'city' => 'City',
+    'country' => 'Country',
     'status' => 'Status',
     'created_at' => 'Created At',
     'updated_at' => 'Updated At',
