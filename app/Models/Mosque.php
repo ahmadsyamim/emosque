@@ -137,4 +137,14 @@ class Mosque extends Model
     {
         return $this->belongsTo(\App\Models\Country::class, 'country_id');
     }
+
+    public function getImageAttribute($value)
+    {
+        if ($value) {
+            return asset('storage/' . $value);
+        } else {
+            return null;
+            // return asset('images/no-image.png');
+        }
+    }
 }

@@ -160,5 +160,13 @@ class BlogPost extends Model
         'featured' => 'required'
     ];
 
-    
+    public function getImageAttribute($value)
+    {
+        if ($value) {
+            return asset('storage/' . $value);
+        } else {
+            return null;
+            // return asset('images/no-image.png');
+        }
+    }
 }
