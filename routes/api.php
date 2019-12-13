@@ -21,28 +21,30 @@ use Illuminate\Http\Request;
 //     return $request->user();
 // });
 
-Route::group(['prefix' => 'v1'], function () {
+Route::group(['prefix' => 'v1','middleware' => 'api'], function () {
     Route::resource('mosques', 'MosqueAPIController');
     Route::resource('blog_posts', 'BlogPostAPIController');
     Route::resource('blogPosts', 'BlogPostAPIController');
     Route::resource('events', 'EventAPIController');
     
     Route::group(['middleware' => 'api','prefix' => 'auth'], function ($router) {
-        Route::post('login', 'AuthController@login');
-        Route::post('logout', 'AuthController@logout');
-        Route::post('refresh', 'AuthController@refresh');
-        Route::post('me', 'AuthController@me');
+        Route::match(['get', 'post'],'login', 'AuthController@login');
+        Route::match(['get', 'post'],'logout', 'AuthController@logout');
+        Route::match(['get', 'post'],'refresh', 'AuthController@refresh');
+        Route::match(['get', 'post'],'me', 'AuthController@me');
     });
 });
 
-Route::resource('mosques', 'MosqueAPIController');
-Route::resource('blog_posts', 'BlogPostAPIController');
-Route::resource('blogPosts', 'BlogPostAPIController');
-Route::resource('events', 'EventAPIController');
+Route::group(['prefix' => 'live','middleware' => 'auth:api'], function () {
+    Route::resource('mosques', 'MosqueAPIController');
+    Route::resource('blog_posts', 'BlogPostAPIController');
+    Route::resource('blogPosts', 'BlogPostAPIController');
+    Route::resource('events', 'EventAPIController');
+});
 
 Route::group(['middleware' => 'api','prefix' => 'auth'], function ($router) {
-    Route::post('login', 'AuthController@login');
-    Route::post('logout', 'AuthController@logout');
-    Route::post('refresh', 'AuthController@refresh');
-    Route::post('me', 'AuthController@me');
+    Route::match(['get', 'post'],'login', 'AuthController@login');
+    Route::match(['get', 'post'],'logout', 'AuthController@logout');
+    Route::match(['get', 'post'],'refresh', 'AuthController@refresh');
+    Route::match(['get', 'post'],'me', 'AuthController@me');
 });
