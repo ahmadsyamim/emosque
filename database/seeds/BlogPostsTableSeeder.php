@@ -27,7 +27,7 @@ class BlogPostsTableSeeder extends Seeder
                 'excerpt' => 'An example blog post',
                 'body' => '<p>Matey yardarm topmast broadside nipper weigh anchor jack quarterdeck crow\'s nest rigging. Topgallant lateen sail line avast me gun Pirate Round strike colors bilge rat take a caulk. Jack six pounders spanker doubloon clipper spirits case shot hang the jib boatswain red ensign.</p>
 <p>Hornswaggle spanker spyglass Yellow Jack mutiny Arr lugger poop deck keel take a caulk. Quarter fire ship run a shot across the bow sheet log draft scallywag gally port skysail. Lugsail gangway draft pink piracy bilge Buccaneer heave to landlubber or just lubber Pieces of Eight.</p>',
-                'image' => NULL,
+                'image' => 'mosques/samples/aarTsK26F0A5NPlbZ29r.jpg',
                 'slug' => 'my-first-blog-post',
                 'meta_description' => 'A test blog post',
                 'status' => 'PUBLISHED',
@@ -47,7 +47,7 @@ class BlogPostsTableSeeder extends Seeder
                 'excerpt' => 'An example blog post',
                 'body' => '<p>Matey yardarm topmast broadside nipper weigh anchor jack quarterdeck crow\'s nest rigging. Topgallant lateen sail line avast me gun Pirate Round strike colors bilge rat take a caulk. Jack six pounders spanker doubloon clipper spirits case shot hang the jib boatswain red ensign.</p>
 <p>Hornswaggle spanker spyglass Yellow Jack mutiny Arr lugger poop deck keel take a caulk. Quarter fire ship run a shot across the bow sheet log draft scallywag gally port skysail. Lugsail gangway draft pink piracy bilge Buccaneer heave to landlubber or just lubber Pieces of Eight.</p>',
-                'image' => NULL,
+                'image' => 'mosques/samples/erZtpVo7feAPXwB98tvK.jpg',
                 'slug' => 'my-second-blog-post',
                 'meta_description' => 'A test blog post',
                 'status' => 'PUBLISHED',
