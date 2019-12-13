@@ -868,6 +868,44 @@
                 }
             }
         },
+        "Country": {
+            "required": [
+                ""
+            ],
+            "properties": {
+                "id": {
+                    "description": "id",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "iso": {
+                    "description": "iso",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "name",
+                    "type": "string"
+                },
+                "nicename": {
+                    "description": "nicename",
+                    "type": "string"
+                },
+                "iso3": {
+                    "description": "iso3",
+                    "type": "string"
+                },
+                "numcode": {
+                    "description": "numcode",
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "phonecode": {
+                    "description": "phonecode",
+                    "type": "integer",
+                    "format": "int32"
+                }
+            }
+        },
         "Event": {
             "required": [
                 ""
