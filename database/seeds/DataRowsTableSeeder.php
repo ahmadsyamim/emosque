@@ -1158,7 +1158,7 @@ class DataRowsTableSeeder extends Seeder
                 'id' => 73,
                 'data_type_id' => 8,
                 'field' => 'image',
-                'type' => 'text',
+                'type' => 'image',
                 'display_name' => 'Image',
                 'required' => 0,
                 'browse' => 1,

@@ -7,7 +7,11 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', __('models/mosques.fields.image').':') !!}
-    <p>{!! $mosque->image !!}</p>
+    <p>
+        @if ($mosque->image)
+        <img src="{!! url('storage/'.$mosque->image) !!}">
+        @endif
+    </p>
 </div>
 
 <!-- Description Field -->
