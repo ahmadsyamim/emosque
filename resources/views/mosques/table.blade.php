@@ -15,7 +15,7 @@
         <tbody>
         @foreach($mosques as $mosque)
             <tr>
-                <td><a href="{!! route('mosques.show', [$mosque->id]) !!}">{!! $mosque->name !!}</a></td>
+                <td><a href="{!! route('mosques.show', [$mosque->hashid()]) !!}">{!! $mosque->name !!}</a></td>
                 <td>
                     @if ($mosque->image)
                     <img src="{!! url('storage/'.$mosque->image) !!}">

@@ -19,6 +19,7 @@
         "laravel/passport": "^7.3",
         "laravel/tinker": "^1.0",
         "laravelcollective/html": "^5.8",
+        "mtvs/eloquent-hashids": "^1.1",
         "orangehill/iseed": "^2.6",
         "pvtl/voyager-frontend": "dev-master",
         "tcg/voyager": "^1.3",

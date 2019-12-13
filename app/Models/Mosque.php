@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Mtvs\EloquentHashids\HasHashid;
+use Mtvs\EloquentHashids\HashidRouting;
 
 /**
  * @SWG\Definition(
@@ -79,6 +81,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Mosque extends Model
 {
     use SoftDeletes;
+    use HasHashid, HashidRouting;
 
     public $table = 'mosques';
     
