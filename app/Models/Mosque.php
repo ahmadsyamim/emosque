@@ -143,8 +143,7 @@ class Mosque extends Model
         if ($value) {
             return asset('storage/' . $value);
         } else {
-            return null;
-            // return asset('images/no-image.png');
+            return asset('images/placeholder.png');
         }
     }
 }

@@ -18,7 +18,7 @@
                 <td><a href="{!! route('mosques.show', [$mosque->hashid()]) !!}">{!! $mosque->name !!}</a></td>
                 <td>
                     @if ($mosque->image)
-                    <img src="{!! url('storage/'.$mosque->image) !!}">
+                    <img src="{!! url($mosque->image) !!}">
                     @endif
                 </td>
                 <td>{!! $mosque->description !!}</td>
