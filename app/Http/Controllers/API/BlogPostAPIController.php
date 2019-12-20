@@ -59,12 +59,12 @@ class BlogPostAPIController extends AppBaseController
      */
     public function index(Request $request)
     {
+        $request->merge(['status' => 'PUBLISHED']);
         $blogPosts = $this->blogPostRepository->all(
             $request->except(['skip', 'limit']),
             $request->get('skip'),
             $request->get('limit')
-        )
-        ->where('status','PUBLISHED');
+        );
 
         return $this->sendResponse(
             $blogPosts->toArray(),
