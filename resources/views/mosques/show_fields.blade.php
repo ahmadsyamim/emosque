@@ -9,7 +9,7 @@
     {!! Form::label('image', __('models/mosques.fields.image').':') !!}
     <p>
         @if ($mosque->image)
-        <img src="{!! url('storage/'.$mosque->image) !!}">
+        <img src="{!! url($mosque->image) !!}">
         @endif
     </p>
 </div>
