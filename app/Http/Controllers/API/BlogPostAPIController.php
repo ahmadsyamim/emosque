@@ -63,7 +63,8 @@ class BlogPostAPIController extends AppBaseController
             $request->except(['skip', 'limit']),
             $request->get('skip'),
             $request->get('limit')
-        );
+        )
+        ->where('status','PUBLISHED');
 
         return $this->sendResponse(
             $blogPosts->toArray(),
