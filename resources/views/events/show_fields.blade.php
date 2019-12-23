@@ -1,13 +1,13 @@
 <!-- Title Field -->
 <div class="form-group">
     {!! Form::label('title', __('models/events.fields.title').':') !!}
-    <p>{!! $event->title !!}</p>
+    <p>{!! $event->getTranslatedAttribute('title') !!}</p>
 </div>
 
 <!-- Description Field -->
 <div class="form-group">
     {!! Form::label('description', __('models/events.fields.description').':') !!}
-    <p>{!! $event->description !!}</p>
+    <p>{!! $event->getTranslatedAttribute('description') !!}</p>
 </div>
 
 <!-- Image Field -->

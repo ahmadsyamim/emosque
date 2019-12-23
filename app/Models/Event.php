@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use TCG\Voyager\Traits\Translatable;
 
 /**
  * @SWG\Definition(
@@ -86,7 +87,8 @@ class Event extends Model
 
     protected $dates = ['deleted_at'];
 
-
+    use Translatable;
+    protected $translatable = ['title', 'description'];
 
     public $fillable = [
         'title',

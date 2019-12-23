@@ -65,6 +65,11 @@ class EventAPIController extends AppBaseController
             $request->get('limit')
         );
 
+        // with object of Model or Collection
+        if (\Voyager::translatable($events)) {
+            // it's translatable
+        }
+
         return $this->sendResponse(
             $events->toArray(),
             __('messages.retrieved', ['model' => __('models/events.plural')])

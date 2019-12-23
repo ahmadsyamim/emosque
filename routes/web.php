@@ -19,3 +19,11 @@ Route::group(['prefix' => 'admin'], function () {
 
 Route::resource('mosques', 'MosqueController');
 Route::resource('events', 'EventController');
+
+Route::get('/lang/{key}', function($key)
+{
+    if (!empty($key) && in_array($key, ['en','ja'])) {
+        Session::put('locale', $key);
+    }
+    return Redirect::back();
+});

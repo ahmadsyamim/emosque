@@ -3,6 +3,19 @@
         <i class="fas fa-search"></i>
     </a>
 </li>
+@if (config('voyager.multilingual.enabled'))
+<li>
+    <a href="#">{{ (Session::get('locale')) ? Session::get('locale') : 'Language' }}</a>
+    <ul class="menu">
+    <li>
+        <a href="#" onclick="location.href='{{ url('lang/en') }}'">English</a>
+    </li>
+    <li>
+        <a href="#" onclick="location.href='{{ url('lang/ja') }}'">Japanese</a>
+    </li>
+    </ul>
+</li>
+@endif
 @if (Auth::guest())
     <li><a href="{{ route('login') }}">Login</a></li>
     <li><a href="{{ route('register') }}">Register</a></li>
