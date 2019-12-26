@@ -24,7 +24,7 @@ class MenuItemsTableSeeder extends Seeder
                 'title' => 'Dashboard',
                 'url' => '',
                 'target' => '_self',
-                'icon_class' => 'voyager-boat',
+                'icon_class' => 'voyager-home',
                 'color' => NULL,
                 'parent_id' => NULL,
                 'order' => 1,
