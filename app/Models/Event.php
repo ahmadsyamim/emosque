@@ -132,4 +132,13 @@ class Event extends Model
     {
         return $this->belongsTo(\App\Models\Mosque::class, 'mosque_id');
     }
+
+    public function getImageAttribute($value)
+    {
+        if ($value) {
+            return asset('storage/' . $value);
+        } else {
+            return asset('images/placeholder.png');
+        }
+    }
 }
