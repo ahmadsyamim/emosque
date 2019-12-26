@@ -50,7 +50,7 @@ class EventsTableSeeder extends Seeder
                 'id' => 3,
                 'title' => 'Event Kamata',
                 'description' => 'Event Kamata',
-                'image' => 'events/December2019/TLcCULIVth7mktKI5cJs.jpg',
+                'image' => 'events/samples/TLcCULIVth7mktKI5cJs.jpg',
                 'date_from' => '2019-12-26 13:10:00',
                 'date_to' => '2019-12-28 13:30:00',
                 'user_id' => NULL,
