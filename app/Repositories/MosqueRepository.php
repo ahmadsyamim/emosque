@@ -75,7 +75,7 @@ class MosqueRepository extends BaseRepository
     {
         $query = $this->allQuery($search, $skip, $limit, $sort);
 
-        return $query->with('event')->get($columns);
+        return $query->with('event')->with('event.translations')->get($columns);
 
     }
 }
