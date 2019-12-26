@@ -18,7 +18,7 @@ use TCG\Voyager\Events\BreadImagesDeleted;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
 
-class MosqueController extends VoyagerBaseController
+class EventController extends VoyagerBaseController
 {
     use BreadRelationshipParser;
 
@@ -98,7 +98,7 @@ class MosqueController extends VoyagerBaseController
             $isAdminMosque = auth()->user()->hasRole('admin_mosque');
             if ($isAdminMosque && !$isAdmin) {
                 $user_mosque = Collect(DB::table('user_mosques')->where('user_id',auth()->user()->id)->get())->pluck('mosque_id');
-                $query->whereIn('id',$user_mosque);
+                $query->whereIn('mosque_id',$user_mosque);
             }
 
             if ($orderBy && in_array($orderBy, $dataType->fields())) {
@@ -843,16 +843,37 @@ class MosqueController extends VoyagerBaseController
                 $options = $row->details;
                 $skip = $on_page * ($page - 1);
 
-                // If search query, use LIKE to filter results depending on field label
-                if ($search) {
-                    $total_count = app($options->model)->where($options->label, 'LIKE', '%'.$search.'%')->count();
-                    $relationshipOptions = app($options->model)->take($on_page)->skip($skip)
-                        ->where($options->label, 'LIKE', '%'.$search.'%')
-                        ->get();
+                // Check for user
+                $isAdmin = auth()->user()->hasRole('admin');
+                $isAdminMosque = auth()->user()->hasRole('admin_mosque');
+                if ($isAdminMosque && !$isAdmin) {
+                    $user_mosque = Collect(DB::table('user_mosques')->where('user_id',auth()->user()->id)->get())->pluck('mosque_id');
+                    // $query->whereIn('mosque_id',$user_mosque);
+                    // If search query, use LIKE to filter results depending on field label
+                    if ($search) {
+                        $total_count = app($options->model)->whereIn('id',$user_mosque)->where($options->label, 'LIKE', '%'.$search.'%')->count();
+                        $relationshipOptions = app($options->model)->whereIn('id',$user_mosque)->take($on_page)->skip($skip)
+                            ->where($options->label, 'LIKE', '%'.$search.'%')
+                            ->get();
+                    } else {
+                        $total_count = app($options->model)->whereIn('id',$user_mosque)->count();
+                        $relationshipOptions = app($options->model)->whereIn('id',$user_mosque)->take($on_page)->skip($skip)->get();
+                    }
+
                 } else {
-                    $total_count = app($options->model)->count();
-                    $relationshipOptions = app($options->model)->take($on_page)->skip($skip)->get();
+
+                    // If search query, use LIKE to filter results depending on field label
+                    if ($search) {
+                        $total_count = app($options->model)->where($options->label, 'LIKE', '%'.$search.'%')->count();
+                        $relationshipOptions = app($options->model)->take($on_page)->skip($skip)
+                            ->where($options->label, 'LIKE', '%'.$search.'%')
+                            ->get();
+                    } else {
+                        $total_count = app($options->model)->count();
+                        $relationshipOptions = app($options->model)->take($on_page)->skip($skip)->get();
+                    }
                 }
+
 
                 $results = [];
 
