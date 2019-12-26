@@ -112,11 +112,21 @@ abstract class BaseRepository
         }
 
         if (count($sort)) {
-            if ($sort[0] == 'id' && $sort[0] != $this->model->getKeyName()) {
-                $sort[0] = $this->model->getKeyName();
+            if (isset($sort[0][0])) {
+                foreach ($sort as $s) {
+                    if ($s[0] == 'id' && $s[0] != $this->model->getKeyName()) {
+                        $s[0] = $this->model->getKeyName();
+                    }
+                    list($orderBy, $order) = $s;
+                    $query->orderBy($orderBy, $order);
+                }
+            } else {
+                if ($sort[0] == 'id' && $sort[0] != $this->model->getKeyName()) {
+                    $sort[0] = $this->model->getKeyName();
+                }
+                list($orderBy, $order) = $sort;
+                $query->orderBy($orderBy, $order);
             }
-            list($orderBy, $order) = $sort;
-            $query->orderBy($orderBy, $order);
         }
 
         return $query;

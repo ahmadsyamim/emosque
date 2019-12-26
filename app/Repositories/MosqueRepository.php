@@ -59,4 +59,23 @@ class MosqueRepository extends BaseRepository
 
         return $query->findByHashid($id, $columns);
     }
+
+    /**
+     * Retrieve all records with given filter criteria
+     *
+     * @param array $search
+     * @param int|null $skip
+     * @param int|null $limit
+     * @param array $columns
+     * @param array $sort
+     *
+     * @return \Illuminate\Contracts\Pagination\LengthAwarePaginator|\Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection
+     */
+    public function all($search = [], $skip = null, $limit = null, $columns = ['*'], $sort = array(['image', 'desc'],['id','desc']))
+    {
+        $query = $this->allQuery($search, $skip, $limit, $sort);
+
+        return $query->with('event')->get($columns);
+
+    }
 }

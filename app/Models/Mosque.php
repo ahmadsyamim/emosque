@@ -146,4 +146,12 @@ class Mosque extends Model
             return asset('images/placeholder.png');
         }
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     **/
+    public function event()
+    {
+        return $this->hasMany(\App\Models\Event::class);
+    }
 }
