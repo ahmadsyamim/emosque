@@ -546,6 +546,193 @@ class TranslationsTableSeeder extends Seeder
                 'created_at' => '2019-12-23 07:45:53',
                 'updated_at' => '2019-12-23 07:45:53',
             ),
+            48 => 
+            array (
+                'id' => 49,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 71,
+                'locale' => 'ja',
+                'value' => 'Id',
+                'created_at' => '2019-12-26 07:06:59',
+                'updated_at' => '2019-12-26 07:06:59',
+            ),
+            49 => 
+            array (
+                'id' => 50,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 72,
+                'locale' => 'ja',
+                'value' => 'Name',
+                'created_at' => '2019-12-26 07:06:59',
+                'updated_at' => '2019-12-26 07:06:59',
+            ),
+            50 => 
+            array (
+                'id' => 51,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 73,
+                'locale' => 'ja',
+                'value' => 'Image',
+                'created_at' => '2019-12-26 07:06:59',
+                'updated_at' => '2019-12-26 07:06:59',
+            ),
+            51 => 
+            array (
+                'id' => 52,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 74,
+                'locale' => 'ja',
+                'value' => 'Description',
+                'created_at' => '2019-12-26 07:07:00',
+                'updated_at' => '2019-12-26 07:07:00',
+            ),
+            52 => 
+            array (
+                'id' => 53,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 75,
+                'locale' => 'ja',
+                'value' => 'Address',
+                'created_at' => '2019-12-26 07:07:00',
+                'updated_at' => '2019-12-26 07:07:00',
+            ),
+            53 => 
+            array (
+                'id' => 54,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 76,
+                'locale' => 'ja',
+                'value' => 'Website',
+                'created_at' => '2019-12-26 07:07:00',
+                'updated_at' => '2019-12-26 07:07:00',
+            ),
+            54 => 
+            array (
+                'id' => 55,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 77,
+                'locale' => 'ja',
+                'value' => 'Prefectures',
+                'created_at' => '2019-12-26 07:07:01',
+                'updated_at' => '2019-12-26 07:07:01',
+            ),
+            55 => 
+            array (
+                'id' => 56,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 78,
+                'locale' => 'ja',
+                'value' => 'City',
+                'created_at' => '2019-12-26 07:07:01',
+                'updated_at' => '2019-12-26 07:07:01',
+            ),
+            56 => 
+            array (
+                'id' => 57,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 95,
+                'locale' => 'ja',
+                'value' => 'Country Id',
+                'created_at' => '2019-12-26 07:07:01',
+                'updated_at' => '2019-12-26 07:07:01',
+            ),
+            57 => 
+            array (
+                'id' => 58,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 79,
+                'locale' => 'ja',
+                'value' => 'Status',
+                'created_at' => '2019-12-26 07:07:01',
+                'updated_at' => '2019-12-26 07:07:01',
+            ),
+            58 => 
+            array (
+                'id' => 59,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 80,
+                'locale' => 'ja',
+                'value' => 'Created At',
+                'created_at' => '2019-12-26 07:07:01',
+                'updated_at' => '2019-12-26 07:07:01',
+            ),
+            59 => 
+            array (
+                'id' => 60,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 81,
+                'locale' => 'ja',
+                'value' => 'Updated At',
+                'created_at' => '2019-12-26 07:07:02',
+                'updated_at' => '2019-12-26 07:07:02',
+            ),
+            60 => 
+            array (
+                'id' => 61,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 82,
+                'locale' => 'ja',
+                'value' => 'Deleted At',
+                'created_at' => '2019-12-26 07:07:02',
+                'updated_at' => '2019-12-26 07:07:02',
+            ),
+            61 => 
+            array (
+                'id' => 62,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 96,
+                'locale' => 'ja',
+                'value' => 'Country',
+                'created_at' => '2019-12-26 07:07:02',
+                'updated_at' => '2019-12-26 07:07:02',
+            ),
+            62 => 
+            array (
+                'id' => 63,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 97,
+                'locale' => 'ja',
+                'value' => 'users',
+                'created_at' => '2019-12-26 07:07:02',
+                'updated_at' => '2019-12-26 07:07:02',
+            ),
+            63 => 
+            array (
+                'id' => 64,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 8,
+                'locale' => 'ja',
+                'value' => 'Mosque',
+                'created_at' => '2019-12-26 07:07:03',
+                'updated_at' => '2019-12-26 07:07:03',
+            ),
+            64 => 
+            array (
+                'id' => 65,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 8,
+                'locale' => 'ja',
+                'value' => 'Mosques',
+                'created_at' => '2019-12-26 07:07:03',
+                'updated_at' => '2019-12-26 07:07:03',
+            ),
         ));
         
         

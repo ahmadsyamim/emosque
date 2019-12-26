@@ -32,5 +32,6 @@ class DatabaseSeeder extends Seeder
         $this->call(CountriesTableSeeder::class);
         $this->call(MosquesTableSeeder::class);
         $this->call(EventsTableSeeder::class);
+        $this->call(UserMosquesTableSeeder::class);
     }
 }

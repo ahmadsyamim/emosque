@@ -33,6 +33,14 @@ class RolesTableSeeder extends Seeder
                 'created_at' => '2019-11-13 14:15:34',
                 'updated_at' => '2019-11-13 14:15:34',
             ),
+            2 => 
+            array (
+                'id' => 3,
+                'name' => 'admin_mosque',
+                'display_name' => 'Admin Mosque',
+                'created_at' => '2019-12-26 07:11:04',
+                'updated_at' => '2019-12-26 07:45:22',
+            ),
         ));
         
         

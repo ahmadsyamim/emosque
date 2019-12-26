@@ -1537,6 +1537,22 @@ class DataRowsTableSeeder extends Seeder
                 'details' => '{"model":"App\\\\Models\\\\Country","table":"countries","type":"belongsTo","column":"country_id","key":"id","label":"nicename","pivot_table":"blog_posts","pivot":"0","taggable":"0"}',
                 'order' => 14,
             ),
+            95 => 
+            array (
+                'id' => 97,
+                'data_type_id' => 8,
+                'field' => 'mosque_belongstomany_user_relationship',
+                'type' => 'relationship',
+                'display_name' => 'Users',
+                'required' => 0,
+                'browse' => 1,
+                'read' => 1,
+                'edit' => 1,
+                'add' => 1,
+                'delete' => 1,
+                'details' => '{"model":"App\\\\User","table":"users","type":"belongsToMany","column":"id","key":"id","label":"name","pivot_table":"user_mosques","pivot":"1","taggable":"0"}',
+                'order' => 15,
+            ),
         ));
         
         

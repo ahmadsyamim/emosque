@@ -153,13 +153,13 @@ class DataTypesTableSeeder extends Seeder
                 'icon' => 'voyager-list',
                 'model_name' => 'App\\Models\\Mosque',
                 'policy_name' => NULL,
-                'controller' => NULL,
+                'controller' => 'App\\Http\\Controllers\\Admin\\MosqueController',
                 'description' => NULL,
                 'generate_permissions' => 1,
                 'server_side' => 1,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":"name","scope":null}',
                 'created_at' => '2019-11-17 22:28:44',
-                'updated_at' => '2019-12-13 01:14:16',
+                'updated_at' => '2019-12-26 07:19:15',
             ),
             8 => 
             array (
