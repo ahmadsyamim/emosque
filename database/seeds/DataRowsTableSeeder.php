@@ -1366,7 +1366,7 @@ class DataRowsTableSeeder extends Seeder
                 'id' => 86,
                 'data_type_id' => 10,
                 'field' => 'image',
-                'type' => 'text',
+                'type' => 'image',
                 'display_name' => 'Image',
                 'required' => 0,
                 'browse' => 1,
@@ -1374,7 +1374,7 @@ class DataRowsTableSeeder extends Seeder
                 'edit' => 1,
                 'add' => 1,
                 'delete' => 1,
-                'details' => '{}',
+                'details' => '{"resize":{"width":"1000","height":"null"},"quality":"70%","upsize":true,"thumbnails":[{"name":"medium","scale":"50%"},{"name":"small","scale":"25%"},{"name":"cropped","crop":{"width":"300","height":"250"}}]}',
                 'order' => 4,
             ),
             85 => 

@@ -392,6 +392,160 @@ class TranslationsTableSeeder extends Seeder
                 'created_at' => '2019-12-23 03:19:55',
                 'updated_at' => '2019-12-23 03:20:45',
             ),
+            34 => 
+            array (
+                'id' => 35,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 83,
+                'locale' => 'ja',
+                'value' => 'Id',
+                'created_at' => '2019-12-23 07:45:49',
+                'updated_at' => '2019-12-23 07:45:49',
+            ),
+            35 => 
+            array (
+                'id' => 36,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 84,
+                'locale' => 'ja',
+                'value' => 'Title',
+                'created_at' => '2019-12-23 07:45:50',
+                'updated_at' => '2019-12-23 07:45:50',
+            ),
+            36 => 
+            array (
+                'id' => 37,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 85,
+                'locale' => 'ja',
+                'value' => 'Description',
+                'created_at' => '2019-12-23 07:45:50',
+                'updated_at' => '2019-12-23 07:45:50',
+            ),
+            37 => 
+            array (
+                'id' => 38,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 86,
+                'locale' => 'ja',
+                'value' => 'Image',
+                'created_at' => '2019-12-23 07:45:50',
+                'updated_at' => '2019-12-23 07:45:50',
+            ),
+            38 => 
+            array (
+                'id' => 39,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 87,
+                'locale' => 'ja',
+                'value' => 'Date From',
+                'created_at' => '2019-12-23 07:45:51',
+                'updated_at' => '2019-12-23 07:45:51',
+            ),
+            39 => 
+            array (
+                'id' => 40,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 88,
+                'locale' => 'ja',
+                'value' => 'Date To',
+                'created_at' => '2019-12-23 07:45:51',
+                'updated_at' => '2019-12-23 07:45:51',
+            ),
+            40 => 
+            array (
+                'id' => 41,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 89,
+                'locale' => 'ja',
+                'value' => 'User Id',
+                'created_at' => '2019-12-23 07:45:51',
+                'updated_at' => '2019-12-23 07:45:51',
+            ),
+            41 => 
+            array (
+                'id' => 42,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 90,
+                'locale' => 'ja',
+                'value' => 'Mosque Id',
+                'created_at' => '2019-12-23 07:45:52',
+                'updated_at' => '2019-12-23 07:45:52',
+            ),
+            42 => 
+            array (
+                'id' => 43,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 91,
+                'locale' => 'ja',
+                'value' => 'Created At',
+                'created_at' => '2019-12-23 07:45:52',
+                'updated_at' => '2019-12-23 07:45:52',
+            ),
+            43 => 
+            array (
+                'id' => 44,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 92,
+                'locale' => 'ja',
+                'value' => 'Updated At',
+                'created_at' => '2019-12-23 07:45:52',
+                'updated_at' => '2019-12-23 07:45:52',
+            ),
+            44 => 
+            array (
+                'id' => 45,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 93,
+                'locale' => 'ja',
+                'value' => 'Deleted At',
+                'created_at' => '2019-12-23 07:45:52',
+                'updated_at' => '2019-12-23 07:45:52',
+            ),
+            45 => 
+            array (
+                'id' => 46,
+                'table_name' => 'data_rows',
+                'column_name' => 'display_name',
+                'foreign_key' => 94,
+                'locale' => 'ja',
+                'value' => 'Mosque',
+                'created_at' => '2019-12-23 07:45:53',
+                'updated_at' => '2019-12-23 07:45:53',
+            ),
+            46 => 
+            array (
+                'id' => 47,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_singular',
+                'foreign_key' => 10,
+                'locale' => 'ja',
+                'value' => 'Event',
+                'created_at' => '2019-12-23 07:45:53',
+                'updated_at' => '2019-12-23 07:45:53',
+            ),
+            47 => 
+            array (
+                'id' => 48,
+                'table_name' => 'data_types',
+                'column_name' => 'display_name_plural',
+                'foreign_key' => 10,
+                'locale' => 'ja',
+                'value' => 'Events',
+                'created_at' => '2019-12-23 07:45:53',
+                'updated_at' => '2019-12-23 07:45:53',
+            ),
         ));
         
         
