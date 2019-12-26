@@ -112,7 +112,7 @@ abstract class BaseRepository
         }
 
         if (count($sort)) {
-            if (isset($sort[0][0])) {
+            if (is_array($sort[0])) {
                 foreach ($sort as $s) {
                     if ($s[0] == 'id' && $s[0] != $this->model->getKeyName()) {
                         $s[0] = $this->model->getKeyName();
