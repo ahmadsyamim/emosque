@@ -88,10 +88,8 @@ class Mosque extends Model
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
 
-
+    protected $appends = ['image_url'];
     protected $dates = ['deleted_at'];
-
-
 
     public $fillable = [
         'name',
@@ -138,20 +136,20 @@ class Mosque extends Model
         return $this->belongsTo(\App\Models\Country::class, 'country_id');
     }
 
-    public function getImageAttribute($value)
-    {
-        if ($value) {
-            return asset('storage/' . $value);
-        } else {
-            return asset('images/placeholder.png');
-        }
-    }
-
     /**
      * @return \Illuminate\Database\Eloquent\Relations\HasMany
      **/
     public function event()
     {
         return $this->hasMany(\App\Models\Event::class);
+    }
+
+    public function getImageUrlAttribute()
+    {
+        if ($this->image) {
+            return asset('storage/' . $this->image);
+        } else {
+            return asset('images/placeholder.png');
+        }
     }
 }

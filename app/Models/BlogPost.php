@@ -102,10 +102,9 @@ class BlogPost extends Model
     
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
-
-
-
-
+    
+    protected $appends = ['image_url'];
+    
     public $fillable = [
         'author_id',
         'category_id',
@@ -160,10 +159,10 @@ class BlogPost extends Model
         'featured' => 'required'
     ];
 
-    public function getImageAttribute($value)
+    public function getImageUrlAttribute()
     {
-        if ($value) {
-            return asset('storage/' . $value);
+        if ($this->image) {
+            return asset('storage/' . $this->image);
         } else {
             return asset('images/placeholder.png');
         }

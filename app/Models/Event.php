@@ -84,7 +84,7 @@ class Event extends Model
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
 
-
+    protected $appends = ['image_url'];
     protected $dates = ['deleted_at'];
 
     use Translatable;
@@ -133,10 +133,10 @@ class Event extends Model
         return $this->belongsTo(\App\Models\Mosque::class, 'mosque_id');
     }
 
-    public function getImageAttribute($value)
+    public function getImageUrlAttribute()
     {
-        if ($value) {
-            return asset('storage/' . $value);
+        if ($this->image) {
+            return asset('storage/' . $this->image);
         } else {
             return asset('images/placeholder.png');
         }
