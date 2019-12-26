@@ -348,6 +348,50 @@ class TranslationsTableSeeder extends Seeder
                 'created_at' => '2019-11-13 14:15:35',
                 'updated_at' => '2019-11-13 14:15:35',
             ),
+            30 => 
+            array (
+                'id' => 31,
+                'table_name' => 'events',
+                'column_name' => 'title',
+                'foreign_key' => 2,
+                'locale' => 'ja',
+                'value' => 'イベント2',
+                'created_at' => '2019-12-23 03:19:38',
+                'updated_at' => '2019-12-23 03:19:38',
+            ),
+            31 => 
+            array (
+                'id' => 32,
+                'table_name' => 'events',
+                'column_name' => 'description',
+                'foreign_key' => 2,
+                'locale' => 'ja',
+                'value' => 'イベント2',
+                'created_at' => '2019-12-23 03:19:38',
+                'updated_at' => '2019-12-23 03:19:38',
+            ),
+            32 => 
+            array (
+                'id' => 33,
+                'table_name' => 'events',
+                'column_name' => 'title',
+                'foreign_key' => 1,
+                'locale' => 'ja',
+                'value' => 'イベント1',
+                'created_at' => '2019-12-23 03:19:55',
+                'updated_at' => '2019-12-23 03:20:45',
+            ),
+            33 => 
+            array (
+                'id' => 34,
+                'table_name' => 'events',
+                'column_name' => 'description',
+                'foreign_key' => 1,
+                'locale' => 'ja',
+                'value' => 'イベント1',
+                'created_at' => '2019-12-23 03:19:55',
+                'updated_at' => '2019-12-23 03:20:45',
+            ),
         ));
         
         
