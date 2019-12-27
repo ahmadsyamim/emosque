@@ -5,6 +5,8 @@ namespace App\Models;
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use TCG\Voyager\Traits\Translatable;
+use Mtvs\EloquentHashids\HasHashid;
+use Mtvs\EloquentHashids\HashidRouting;
 
 /**
  * @SWG\Definition(
@@ -78,6 +80,7 @@ use TCG\Voyager\Traits\Translatable;
 class Event extends Model
 {
     use SoftDeletes;
+    use HasHashid, HashidRouting;
 
     public $table = 'events';
     

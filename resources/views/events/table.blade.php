@@ -14,7 +14,7 @@
         <tbody>
         @foreach($events as $event)
             <tr>
-                <td><a href="{!! route('events.show', [$event->id]) !!}">{!! $event->title !!}</a></td>
+                <td><a href="{!! route('events.show', [$event->hashid()]) !!}">{!! $event->title !!}</a></td>
                 <td>{!! $event->description !!}</td>
                 <td>
                     @if ($event->image_url)
