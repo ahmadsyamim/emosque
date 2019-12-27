@@ -16,7 +16,11 @@
             <tr>
                 <td><a href="{!! route('events.show', [$event->id]) !!}">{!! $event->title !!}</a></td>
                 <td>{!! $event->description !!}</td>
-                <td>{!! $event->image !!}</td>
+                <td>
+                    @if ($event->image_url)
+                    <img src="{!! url($event->image_url) !!}">
+                    @endif
+                </td>
                 <td>{!! $event->date_from !!}</td>
                 <td>{!! $event->date_to !!}</td>
                 <td>{!! $event->user_id !!}</td>

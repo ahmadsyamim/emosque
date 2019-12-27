@@ -13,7 +13,9 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', __('models/events.fields.image').':') !!}
-    <p>{!! $event->image !!}</p>
+    @if ($event->image_url)
+        <img src="{!! url($event->image_url) !!}">
+    @endif
 </div>
 
 <!-- Date From Field -->

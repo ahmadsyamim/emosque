@@ -8,8 +8,8 @@
 <div class="form-group">
     {!! Form::label('image', __('models/mosques.fields.image').':') !!}
     <p>
-        @if ($mosque->image)
-        <img src="{!! url($mosque->image) !!}">
+        @if ($mosque->image_url)
+        <img src="{!! url($mosque->image_url) !!}">
         @endif
     </p>
 </div>
