@@ -14,8 +14,8 @@
         <tbody>
         @foreach($events as $event)
             <tr>
-                <td><a href="{!! route('events.show', [$event->hashid()]) !!}">{!! $event->title !!}</a></td>
-                <td>{!! $event->description !!}</td>
+                <td><a href="{!! route('events.show', [$event->hashid()]) !!}">{!! $event->getTranslatedAttribute('title') !!}</a></td>
+                <td>{!! $event->getTranslatedAttribute('description') !!}</td>
                 <td>
                     @if ($event->image_url)
                     <img src="{!! url($event->image_url) !!}">
