@@ -8,31 +8,29 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.2",
-        "appointer/swaggervel": "dev-master",
+        "php": "^7.2|^8.0|^8.1",
+        "ahmadsyamim/voyager-frontend": "dev-master",
         "doctrine/dbal": "~2.3",
-        "fideloper/proxy": "^4.0",
-        "infyomlabs/adminlte-templates": "5.8.x-dev",
-        "infyomlabs/laravel-generator": "5.8.x-dev",
+        "fzaninotto/faker": "^1.4",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "infyomlabs/adminlte-templates": "^4.0",
+        "infyomlabs/laravel-generator": "^4.0",
         "infyomlabs/swagger-generator": "dev-master",
-        "joedixon/laravel-translation": "^1.0",
-        "laravel/framework": "5.8.*",
-        "laravel/passport": "^7.3",
-        "laravel/tinker": "^1.0",
-        "laravelcollective/html": "^5.8",
-        "mtvs/eloquent-hashids": "^1.1",
-        "orangehill/iseed": "^2.6",
-        "pvtl/voyager-frontend": "dev-master",
-        "tcg/voyager": "^1.3",
-        "tymon/jwt-auth": "^1.0.0"
+        "laravel/framework": "^9.0",
+        "laravel/passport": "^10.3",
+        "laravel/tinker": "^2.0",
+        "laravelcollective/html": "^6.3",
+        "mtvs/eloquent-hashids": "^3.2",
+        "orangehill/iseed": "^3.0",
+        "php-open-source-saver/jwt-auth": "^1.4",
+        "tcg/voyager": "^1.3"
     },
     "require-dev": {
-        "facade/ignition": "^1.4",
-        "fzaninotto/faker": "^1.4",
+        "laravel/ui": "^3.0",
+        "spatie/laravel-ignition": "^1.0",
         "mockery/mockery": "^1.0",
-        "nunomaduro/collision": "^3.0",
-        "phpunit/phpunit": "^8.0",
-        "xethron/migrations-generator": "^2.0"
+        "nunomaduro/collision": "^6.1",
+        "phpunit/phpunit": "^9.0"
     },
     "config": {
         "optimize-autoloader": true,
@@ -73,10 +71,6 @@
         ]
     },
     "repositories": {
-        "0": {
-            "type": "vcs",
-            "url": "https://github.com/ahmadsyamim/voyager-frontend"
-        },
         "hooks": {
             "type": "composer",
             "url": "https://larapack.io"

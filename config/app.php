@@ -165,7 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
-        Appointer\Swaggervel\SwaggervelServiceProvider::class,
+        // Appointer\Swaggervel\SwaggervelServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -227,8 +227,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
-        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+        'JWTAuth' => PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth::class,
+        'JWTFactory' => PHPOpenSourceSaver\JWTAuth\Facades\JWTFactory::class,
 
     ],
 

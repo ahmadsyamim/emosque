@@ -17,8 +17,8 @@ class AppServiceProvider extends ServiceProvider
         //
         \Laravel\Passport\Passport::ignoreMigrations();
         if ($this->app->environment() !== 'production') {
-            $this->app->register(\Way\Generators\GeneratorsServiceProvider::class);
-            $this->app->register(\Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class);
+            // $this->app->register(\Way\Generators\GeneratorsServiceProvider::class);
+            // $this->app->register(\Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider::class);
         }
     }
 
@@ -33,3 +33,4 @@ class AppServiceProvider extends ServiceProvider
         Schema::defaultStringLength(191);
     }
 }
+;
