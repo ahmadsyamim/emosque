@@ -713,7 +713,7 @@ class MosqueController extends VoyagerBaseController
      *
      * @return void
      */
-    public function deleteBreadImages($data, $rows)
+    public function deleteBreadImages($data, $rows, $single_image = null)
     {
         foreach ($rows as $row) {
             if ($data->{$row->field} != config('voyager.user.default_avatar')) {

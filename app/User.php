@@ -108,7 +108,7 @@ class User extends \TCG\Voyager\Models\User implements JWTSubject
     public function save(array $options = [])
     {
         do{
-            $this->api_token = str_random(60);
+            $this->api_token = \Str::random(60);
         }while($this->where('api_token', $this->api_token)->exists());
         parent::save();
     }
@@ -118,7 +118,7 @@ class User extends \TCG\Voyager\Models\User implements JWTSubject
      */
     public function rollApiKey(){
         do{
-            $this->api_token = str_random(60);
+            $this->api_token = \Str::random(60);
         }while($this->where('api_token', $this->api_token)->exists());
         $this->save();
     }
