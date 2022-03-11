@@ -25,6 +25,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fomantic-ui/2.8.8/semantic.min.css" integrity="sha512-pbLYRiE96XJxmJgF8oWBfa9MdKwuXhlV7vgs2LLlapHLXceztfcta0bdeOgA4reIf0WH67ThWzA684JwkM3zfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     @if (setting('site.google_analytics_tracking_id'))
     <!-- Google Analytics (gtag.js) -->
