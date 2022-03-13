@@ -18,7 +18,7 @@
                 <td>{!! $event->getTranslatedAttribute('description') !!}</td>
                 <td>
                     @if ($event->image_url)
-                    <img src="{!! url($event->image_url) !!}">
+                    <img class="ui small image" src="{!! url($event->image_url) !!}">
                     @endif
                 </td>
                 <td>{!! $event->date_from !!}</td>
